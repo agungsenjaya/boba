@@ -35,3 +35,30 @@ body {
     right: 0;
     z-index: 100;
 }
+.bg-boba {
+    background: #004bd3;
+}
+.btn-boba {
+    background: #004bd3;
+    color: #fff;
+} 
+.btn-boba:hover {
+    background: #00318b;
+    color: #fff;
+}
+.btn-outline-boba {
+    border-color: #004bd3;
+    background:transparent;
+    color: #004bd3;
+}
+.btn-outline-boba:hover {
+    border-color: #004bd3;
+    background:#004bd3;
+    color: #fff;
+}
+.text-boba {
+    color: #004bd3;
+}
+.border-boba {
+    border-color: #004bd3;
+}

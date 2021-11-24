@@ -1,0 +1,2909 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Primary Meta Tags -->
+    <title>BUMooN | Eco-Living Token</title>
+    <meta name="title" content="BUMooN">
+    <meta name="description"
+        content="BUMooN Token is a project for individuals who are dedicated to sustainable and eco-friendly living, BUMooN is the decentralized yield-generation utility eco-token that delivers an automated liquidity-locking and self-staking direct distribution protocol hence your environmentally conscious investment will be safe, secure and have greater impact.">
+    <meta name="twitter:image" content="https://bumoon.io/img/bumoon-banner.jpg">
+    <meta name="title" content="BUMooN | Eco-Living Token">
+    <meta name="keywords"
+        content="Crypto, BUMooN, Token, to the moon, crypto indo, renewable energy, lunar panel, recycle, BUMN, swap, pancakeswap, uniswap, invest, holder, holders, hodlers, Moon, Safe, Binance, Binance Smart Chain, BNB, BSC, token">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="BUMooN.io">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bumoon.io/">
+    <meta property="og:title" content="BUMooN">
+    <meta property="og:description"
+        content="BUMooN Token is a project for individuals who are dedicated to sustainable and eco-friendly living, BUMooN is the decentralized yield-generation utility eco-token that delivers an automated liquidity-locking and self-staking direct distribution protocol hence your environmentally conscious investment will be safe, secure and have greater impact.">
+    <meta property="og:image" content="https://bumoon.io/img/bumoon-banner.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bumoon.io/">
+    <meta property="twitter:title" content="BUMooN">
+    <meta property="twitter:description"
+        content="BUMooN Token is a project for individuals who are dedicated to sustainable and eco-friendly living, BUMooN is the decentralized yield-generation utility eco-token that delivers an automated liquidity-locking and self-staking direct distribution protocol hence your environmentally conscious investment will be safe, secure and have greater impact.">
+    <meta property="twitter:image" content="https://bumoon.io/img/bumoon-banner.jpg">
+
+
+
+    <link rel="icon" type="image/png" href="img/bumoon-icon.png" />
+    <link href="img/bumoon-icon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spin.js/4.1.0/spin.css"
+        integrity="sha512-/ePAkBFgsGvT91dfBaYvL7uDBLV1BHmTB7H7VVQCWvprV01Cqn6Ws0hLoqHYp1g3s8byzKPG+3ADFPR6yVXJDw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/modif.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ936N6C0K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WZ936N6C0K');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body class="overlay">
+
+    <div class="overlay-content" id="ovr" style="visibility: visible;opacity: 0;">
+        <!-- <div id="pageloader" class="pageloader is-left-to-right is-theme"></div>
+    <div id="infraloader" class="infraloader is-active"></div> -->
+        <div class="dark-wrapper">
+            <!-- Landing page Hero -->
+            <section class="hero is-fullheight is-transparent">
+                <div class="hero-head">
+
+                    <!-- Cloned navbar -->
+                    <!-- Cloned navbar that comes in on scroll -->
+                    <nav x-data="initNavbar()" x-on:scroll.window="scroll()" id="navbar-clone"
+                        class="navbar is-fixed is-dark" :class="{
+                        'is-active': scrolled,
+                        '': !scrolled
+                    }">
+                        <div class="container">
+                            <!-- Brand -->
+                            <div class="navbar-brand">
+                                <a href="index.html" class="navbar-item">
+                                    <img class="rotating" src="img/bumoon-icon.png" alt="">
+                                    <span class="brand-name">BUMooN</span>
+                                </a>
+                                <!-- Responsive toggle -->
+                                <div class="navbar-burger" @click="openMobileMenu()">
+                                    <div class="menu-toggle">
+                                        <span class="icon-box-toggle" :class="{
+                                            'active': mobileOpen,
+                                            '': !mobileOpen
+                                        }">
+                                            <span class="rotate">
+                                                <i class="icon-line-top"></i>
+                                                <i class="icon-line-center"></i>
+                                                <i class="icon-line-bottom"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Menu -->
+                            <div id="cloneNavbarMenu" style="    background: #31394c !important;" class="navbar-menu"
+                                :class="{
+                                'is-active': mobileOpen,
+                                '': !mobileOpen
+                            }">
+                                <div class="navbar-end">
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="learnmore is-centered-responsive">About</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="tokenomics is-centered-responsive">Tokenomics</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="roadmap is-centered-responsive">Roadmap</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="partnership is-centered-responsive">Partnership</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <!-- <div class="navbar-item is-nav-link">
+                                        <a class="is-centered-responsive" href="#" target="_blank">
+                                            <img class="telegram" src="img/logo/telegram.svg" alt="">
+                                            Telegram
+                                        </a>
+                                    </div> -->
+                                    <!-- Sign up -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="gettoken button k-button k-primary raised has-gradient slanted">
+                                            <span class="text">GET TOKEN</span>
+                                            <span class="front-gradient"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- /Cloned navbar -->
+                    <!-- Static navbar -->
+                    <!-- Static navbar -->
+                    <nav x-data="initNavbar()" class="navbar is-light" :class="{
+                        'is-dark-mobile': mobileOpen,
+                        '': !mobileOpen
+                    }">
+                        <div class="container">
+                            <!-- Brand -->
+                            <div class="navbar-brand">
+                                <a href="index.html" class="navbar-item">
+                                    <img class="rotating" src="img/bumoon-icon.png" alt="">
+                                    <span class="brand-name">BUMooN</span>
+                                </a>
+                                <!-- Responsive toggle -->
+                                <div class="navbar-burger" @click="openMobileMenu()">
+                                    <div class="menu-toggle">
+                                        <span class="icon-box-toggle" :class="{
+                                            'active': mobileOpen,
+                                            '': !mobileOpen
+                                        }">
+                                            <span class="rotate">
+                                                <i class="icon-line-top"></i>
+                                                <i class="icon-line-center"></i>
+                                                <i class="icon-line-bottom"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Menu -->
+                            <div id="navbarMenu" class="navbar-menu light-menu" :class="{
+                                'is-active': mobileOpen,
+                                '': !mobileOpen
+                            }">
+                                <div class="navbar-end">
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="learnmore is-centered-responsive">About</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="tokenomics is-centered-responsive">Tokenomics</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="roadmap is-centered-responsive">Roadmap</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <div class="navbar-item is-nav-link">
+                                        <a class="partnership is-centered-responsive">Partnership</a>
+                                    </div>
+                                    <!-- Menu item -->
+                                    <!-- <div class="navbar-item is-nav-link">
+                                        <a class="is-centered-responsive" href="#" target="_blank">
+                                            <img class="telegram" src="img/logo/telegram.svg" alt="">
+                                            Telegram
+                                        </a>
+                                    </div> -->
+                                    <!-- Sign up -->
+                                    <div class="navbar-item">
+                                        <a class="gettoken button k-button k-primary raised has-gradient slanted">
+                                            <span class="text">GET TOKEN</span>
+                                            <span class="front-gradient"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- /Static navbar -->
+                </div>
+
+                <!-- Animated particles -->
+                <div id="tsparticles"></div>
+
+                <!-- Hero Image and Title -->
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="columns is-vcentered">
+
+                            <!-- Landing page Title -->
+                            <div class="column is-5 landing-caption">
+                                <h1 class="title is-1 is-light is-semibold is-spaced main-title"
+                                    style="font-size: 92px;" id="titlebumoon">
+                                    BUMooN</h1>
+                                <h2 class="subtitle is-5 is-light is-thin centers">
+                                    Eco-living token that takes you to the next level of investment alongside with
+                                    environmental concern.
+                                    <!-- <b>Fix it.</b> -->
+                                </h2>
+                                <!-- CTA -->
+                                <p class="buttons">
+                                    <a id="getstarted"
+                                        class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                        <span class="text">Get Started</span>
+                                        <span class="front-gradient"></span>
+                                    </a>
+                                    <a class="learnmore button k-button k-primary raised has-gradient is-fat is-bold">
+                                        <span class="text">Learn More</span>
+                                        <span class="front-gradient"></span>
+                                    </a>
+                                </p>
+
+                            </div>
+                            <!-- Hero image -->
+                            <div class="column is-7" style="margin-top: 37px;">
+                                <figure class="image">
+                                    <img id="icon3d" class="waiting" src="img/bumoonintro3d2.gif?dummy=1637740510224"
+                                        style="width: 70%!important;margin: auto;" alt="">
+                                    <img id="icon3d2" class="waiting" src="img/bumoon3d-2.gif"
+                                        style="width: 70%!important;margin: auto;display: none;" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero footer -->
+                <div class="hero-foot">
+                    <div class="container">
+                        <div class="tabs is-centered">
+                            <!-- Client / partner list -->
+                            <ul>
+                                <!-- <li><a><img class="hero-logo" src="img/bnb.png" alt=""></a></li> -->
+                                <li><a href="https://coinmarketcap.com/currencies/bumoon/" target="_blank"
+                                        style="border:none!important"><img class="hero-logo"
+                                            style="height: 30px!important;filter: invert(1);"
+                                            src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_1.svg?_=6e32e55"
+                                            alt=""></a></li>
+                                <li><a href="https://www.coingecko.com/en/coins/bumoon" target="_blank"
+                                        style="border:none!important"><img class="hero-logo"
+                                            style="height: 33px!important;"
+                                            src="https://static.coingecko.com/s/coingecko-logo-white-3f2aeb48e13428b7199395259dbb96280bf47ea05b2940ef7d3e87c61e4d8408.png"
+                                            alt=""></a></li>
+                                <!-- <li><a href="https://pancakeswap.info/tokens/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e"
+                                        target="_blank"><img class="hero-logo" src="img/pancakeswap.png" alt=""></a>
+                                </li> -->
+
+                                <li>
+                                    <a style="border:none!important" href="https://www.certik.org/projects/bumoon"
+                                        target="_blank"><img class="hero-logo"
+                                            src="https://global-uploads.webflow.com/5e5429dd39db886bd75504c2/6035c514a7b4e16cd2cf93e0_certik-logotype-h-w.svg"
+                                            style="height: 30px!important;" alt=""></a>
+                                </li>
+                                <li>
+                                    <a style="border:none!important" href="https://solarkita.com/" target="_blank"><img
+                                            class="hero-logo" src="img/solarkita-logo.png"
+                                            style="height: 30px!important;" alt=""></a>
+                                </li>
+                                <li>
+                                    <a style="border:none!important" href="https://www.sampangan.id/"
+                                        target="_blank"><img class="hero-logo" src="img/sampanganlogo.png"
+                                            style="height: 30px!important;" alt=""></a>
+                                </li>
+                                <li>
+                                    <a style="border:none!important"
+                                        href="https://www.instagram.com/wastelabindonesia/?fbclid=IwAR22LVBXHoshbPYT5dx1f8UbcOy_XLdpQ1CLCzrn2GhBgRsE-6wKLNYrqpY"
+                                        target="_blank"><img class="hero-logo" src="img/wastelablogo.png"
+                                            style="height: 30px!important;" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="buy-title" style="font-size: 1.3em!important;
+                        text-align: center;
+                        color: white;
+                        margin-top: 20px;
+                        border-top: 3px solid;
+                        border-color: #00e5ff;
+                        border-top-style: dashed;
+                        padding-bottom: 0px!important;">Available On</div>
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li>
+                                    <a style="border:none!important" href="https://www.lbank.info/exchange/bumn/usdt"
+                                        target="_blank"><img class="hero-logo" src="img/lbanklogo.png"
+                                            style="height: 25px!important;" alt=""></a>
+                                </li>
+                                <li><a href="https://pancakeswap.info/tokens/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e"
+                                        target="_blank"><img class="hero-logo" src="img/pancakeswap.png" alt=""></a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Landing page Hero -->
+
+            <!-- Icon Features section -->
+            <section class="section is-transparent is-relative">
+                <!-- Container -->
+                <div id="start" class="container" style="margin-top: 70px;">
+
+                    <div class="has-text-centered">
+
+
+                        <div class="buy-title" style="font-size: 1.3em!important;">CURRENT STATS</div>
+
+                        <table style="margin:auto">
+                            <th style="vertical-align: middle;width: 50%;">
+                                <img class="hero-logo" style="width: 34%;" src="img/bnb3d.gif" alt="">
+                            </th>
+                            <th style="vertical-align: middle">
+                                <h2 class="title is-2 is-tight is-light">|</h2>
+                            </th>
+                            <th style="vertical-align: middle;width: 50%;">
+                                <img class="hero-logo" style="width: 45%;" src="img/bumoon3d-2.gif" alt="">
+                            </th>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="buy-title has-text-centered">
+                                            <table style="color: white;margin: auto;">
+                                                <th style="color: white;">BNB PRICE</th>
+                                                <tbody>
+                                                    <td style="font-size: 35px;color: yellow;" id="bnbprice">-</td>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div class="buy-title has-text-centered">
+                                            <table style="color: white;margin: auto;">
+                                                <th style="color: white;">BUMooN PRICE</th>
+                                                <tbody>
+                                                    <td style="font-size: 35px;color: yellow;" id="bumoonprice">-</td>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <div class="accepted-currencies">
+                                <img class="hero-logo" style="width: 35%;" src="img/bnb3d.gif" alt="">
+                            </div>
+                          
+                        </div>
+                        <div class="column is-6">
+                            <div class="accepted-currencies">
+                                <img class="hero-logo" style="width: 45%;" src="img/bumoon3d.gif" alt="">
+                            </div>
+                            <div class="buy-title has-text-centered">
+                                <table style="color: white;margin: auto;">
+                                    <th style="color: white;">BNB PRICE</th>
+                                    <tbody>
+                                        <td style="font-size: 40px;" id="bumoonprice"></td>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    </div>
+
+                    <!-- Content wrapper -->
+                    <div class="content-wrapper is-medium">
+                        <div class="columns is-vcentered">
+                            <!-- Feature -->
+                            <div class="column is-4">
+                                <div class="feature">
+                                    <h2 class="title is-2 is-tight is-light" id="hodlers"></h2>
+                                    <h4 class="title is-6 is-tight is-light" style="color: #33ccff">Holders</h4>
+                                    <p>Amount of address committed</p>
+                                </div>
+                            </div>
+                            <!-- Feature -->
+                            <div class="column is-4">
+                                <div class="feature">
+                                    <h2 class="title is-2 is-tight is-light" id="totalsupply"
+                                        style="font-size: 25px!important;"></h2>
+                                    <h4 class="title is-6 is-tight is-light" style="color: greenyellow;">Circulating
+                                        Supply
+                                    </h4>
+                                    <p>Static and Circulated supply in Total</p>
+                                </div>
+                            </div>
+                            <!-- Feature -->
+                            <div class="column is-4">
+                                <div class="feature">
+                                    <h2 class="title is-2 is-tight is-light" style="font-size: 25px!important;"
+                                        id="burned">
+                                    </h2>
+                                    <h4 class="title is-6 is-tight is-light" style="color:rgb(255, 60, 0);">Burned</h4>
+                                    <p>Total Amount of Hard Burned Token</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Play video button -->
+                        <div class="cta-wrapper has-text-centered">
+                            <div class="subscribe-block">
+                                <div class="buy-title"><img src="img/verified-icon.png" alt="" style="width:12px">
+                                    &nbsp;&nbsp; CONTRACT ADDRESS</div>
+                                <!-- Field -->
+                                <div class="controladd">
+                                    <!-- Special input -->
+                                    <input class="subscribe-input addr" type="text" name="address" id="address"
+                                        style="font-size: 20px;font-weight: bold;text-align: center;" placeholder=""
+                                        value="0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e" readonly>
+                                    <button id="copyaddress" class="subscribeaddr" data-clipboard-target="#address">
+                                        <span>COPY ADDRESS</span>
+                                    </button>
+                                    <br></br>
+                                    <a style="margin-top: 10px;"
+                                        href="https://bscscan.com/token/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e"
+                                        target="_blank">VIEW ON BSC SCAN</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Content wrapper -->
+                </div>
+                <!-- /Container -->
+            </section>
+            <!-- /Icon Features section -->
+
+            <style>
+    #mobilepreview {
+        border-radius: 10px;
+        animation: glow 1s infinite alternate;
+    }
+
+    @keyframes glow {
+        0% {
+            -webkit-filter: brightness(1);
+            filter: brightness(0.8);
+        }
+
+        100% {
+            -webkit-filter: brightness(2);
+            filter: brightness(1.2);
+        }
+    }
+</style>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+<section class="section is-medium has-big-dark-gradient" style="padding-bottom: 10px;padding-top:0px!important"
+    x-data="initRoadmap()" x-init="setupRoadmap()">
+
+    <div class="container">
+        <div class="content-wrapper is-large" style="padding-bottom: 0px!important;">
+            <div class="columns is-vcentered">
+                <div class="column is-12">
+                    <div class="team-member-container">
+                        <div class="light-card cards"
+                            style="background:#05795f!important;box-shadow:0 0 26px 3px rgb(0 255 198)"
+                            data-aos="fade-down">
+                            <div class="member-info">
+
+                                <h1 class="title is-light is-2 is-tight" style="margin-top:10px">Introducing</h1>
+                                <!-- <div class="position" style="color: yellow;">CEO</div> -->
+
+                                <div class="columns is-vcentered">
+                                    <div class="column is-6" style="
+                                    vertical-align: initial;
+                                    margin: auto;
+                                    padding-top: 0px;
+                                    margin-top: 35px;">
+                                        <img src="img/boo-title.png" alt="" style="width: 75%;">
+                                        <br>
+
+                                        <div style="margin-top: 10px;">
+                                            <p class="description" style="color:white"><b>Boo</b>™ is a mobile
+                                                apps that works as
+                                                enabler for several BUMooN green project. Manage your BUMooN token
+                                                easily alongside with other
+                                                collections of
+                                                verified crypto assets which available on BUMooN ecosystem.
+                                            </p>
+                                            <br>
+                                            <!-- <p class="description" style="color:white">Become a Boomies and read the
+                                                documentation
+                                                <a href="https://docs.bumoon.io/enabler/booapps"
+                                                    style="color: yellow!important;"><b>HERE</b></a>
+                                            </p> -->
+                                            <a style="width: 100%;" href="https://docs.bumoon.io/enabler/booapps" class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                                <span class="text">Learn More About Boo™</span>
+                                                <span class="front-gradient"></span>
+                                            </a>
+                                            <div style="display: inline-block;margin-top: 15px;">
+                                                <div style="display: flex;margin-top: 35px;">
+                                                    <img src="img/playstoreiconcomingsoon.png" style="width: 51%;"
+                                                        alt="">
+                                                    <img src="img/appstoreiconcomingsoon.png"
+                                                        style="width: 50%;margin-left: 10px;" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                    </div>
+                                    <div class="column is-6"
+                                        style="text-align: center;margin-bottom: 63px;margin-top: 30px;">
+                                        <img id="mobilepreview" src="img/boo-mobile-preview.png" alt=""
+                                            style="width: 90%;">
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+                                <h1 class="title is-light is-2 is-tight"
+                                    style="margin-top:45px;text-align: right;margin-bottom:30px!important">
+                                    Statistics</h1>
+
+                                <div class="google-map-area">
+                                    <!--  Map Section -->
+                                    <div id="contacts" class="map-area">
+
+                                        <div id="map" style="width:100%;height:400px;border-radius: 10px;">
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="columns is-vcentered" style="margin-top:30px;margin-bottom: 15px;">
+                                    <!-- Feature -->
+                                    <div class="column is-4">
+                                        <div class="feature">
+                                            <h2 class="title is-2 is-tight is-light">0</h2>
+                                            <h4 class="title is-6 is-tight is-light" style="color: white">Miners</h4>
+                                            <p style="color: lightgrey;">Boomies Working Over Garbage</p>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="column is-4">
+                                        <div class="feature">
+                                            <h2 class="title is-2 is-tight is-light">0</h2>
+                                            <h4 class="title is-6 is-tight is-light" style="color: white;">
+                                                Mining Pool
+                                            </h4>
+                                            <p style="color: lightgrey;">Mining Pool Available Locations</p>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="column is-4">
+                                        <div class="feature">
+                                            <h2 class="title is-2 is-tight is-light">0
+                                            </h2>
+                                            <h4 class="title is-6 is-tight is-light" style="color:white;">
+                                                Tokens Collected</h4>
+                                            <p style="color: lightgrey;">Amount of reward token release</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+
+    var mymap = L.map('map').setView([51.505, -0.09], 13);
+    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', { attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.' }).addTo(mymap);
+
+    // var myStyle = [
+    //     {
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#242f3e"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#746855"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "elementType": "labels.text.stroke",
+    //         "stylers": [
+    //             {
+    //                 "color": "#242f3e"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "administrative.locality",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#e0e0e0"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "landscape.natural",
+    //         "stylers": [
+    //             {
+    //                 "weight": 0.5
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "landscape.natural",
+    //         "elementType": "geometry.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#004d44"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "poi",
+    //         "stylers": [
+    //             {
+    //                 "color": "#01dac1"
+    //             },
+    //             {
+    //                 "visibility": "off"
+    //             },
+    //             {
+    //                 "weight": 1
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "poi",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#d59563"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "poi.park",
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#263c3f"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "poi.park",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#6b9a76"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "road",
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#38414e"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "road",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#9ca5b3"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "road.highway",
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#746855"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "road.highway",
+    //         "elementType": "geometry.stroke",
+    //         "stylers": [
+    //             {
+    //                 "color": "#1f2835"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "road.highway",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#f3d19c"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "transit",
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#2f3948"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "transit.station",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#d59563"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "water",
+    //         "elementType": "geometry",
+    //         "stylers": [
+    //             {
+    //                 "color": "#00d9ff"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "water",
+    //         "elementType": "labels.text.fill",
+    //         "stylers": [
+    //             {
+    //                 "color": "#515c6d"
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "featureType": "water",
+    //         "elementType": "labels.text.stroke",
+    //         "stylers": [
+    //             {
+    //                 "color": "#17263c"
+    //             }
+    //         ]
+    //     }
+    // ];
+
+
+    // var mapOptions = {
+    //     mapTypeControlOptions: {
+    //         mapTypeIds: ['myStyle', google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.TERRAIN]
+    //     },
+    //     center: new google.maps.LatLng(40.730610, -73.935242),
+    //     zoom: 7.7,
+    //     mapTypeId: 'myStyle',
+    //     disableDefaultUI: true,
+    //     // options: {
+    //     //     gestureHandling: 'greedy'
+    //     // }
+
+    // }
+
+    // var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    // map.mapTypes.set('myStyle', new google.maps.StyledMapType(myStyle, { name: 'My Style' }));
+
+</script>
+                <!-- Side Features section -->
+                <section class="section is-transparent">
+                    <!-- Container -->
+                    <div id="big-gradient" class="container" style="margin-top : 20px">
+                        <!-- Divider -->
+                        <div class="divider is-centered"></div>
+                        <!-- Title & subtitle -->
+                        <h2 class="title is-light is-semibold has-text-centered is-spaced">About</h2>
+                        <h4 class="subtitle is-6 is-light has-text-centered is-compact">BUMooN Token is a project for
+                            individuals who are dedicated to sustainable and eco-friendly living, BUMooN is the
+                            decentralized yield-generation utility eco-token that delivers an automated
+                            liquidity-locking
+                            and self-staking direct distribution protocol hence your environmentally conscious
+                            investment will be safe, secure and have greater impact.</h4>
+
+                        <!-- Content wrapper -->
+                        <div class="content-wrapper is-large" style="padding-bottom: 0px;">
+                            <div class="columns is-vcentered">
+
+                                <!-- Feature content -->
+                                <div class="column is-5 is-offset-1">
+                                    <div class="side-feature-content">
+
+                                        <div class="about column is-vcentered">
+                                            <h3 class="about title is-4 is-light"><img src="img/verified-icon.png"
+                                                    alt="">
+                                                <span>Garbage Mining</span>
+                                            </h3>
+                                        </div>
+                                        <div class="divider is-long"></div>
+                                        <p class="is-light">BUMooN aims to provide a reward for green mindset
+                                            people that in-line on save our planet's programs. We let people trade
+                                            recyclable
+                                            garbage for BUMooN tokens.</p>
+                                        <!-- <div class="cta-wrapper">
+                                    <a href="/BUMooN Whitepaper.pdf" target="_blank"
+                                        class="button k-button k-primary raised has-gradient is-bold">
+                                        <span class="text">Learn More</span>
+                                        <span class="front-gradient"></span>
+                                    </a>
+                                </div> -->
+                                    </div>
+                                </div>
+
+                                <!-- Feature image -->
+                                <div class="column is-7" style="text-align: center;">
+                                    <img class="side-feature" src="img/recycle.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="columns is-vcentered">
+                                <!-- Feature image desktop -->
+                                <div class="column is-7 is-hidden-mobile" style="text-align: center;">
+                                    <img class="side-feature" src="img/plant.png" alt="">
+                                </div>
+
+                                <!-- Feature content -->
+                                <div class="column is-5">
+                                    <div class="side-feature-content">
+                                        <div class="about column is-vcentered">
+                                            <h3 class="about title is-4 is-light"><img src="img/verified-icon.png"
+                                                    alt="">
+                                                <span>BUMO²N</span>
+                                            </h3>
+                                        </div>
+                                        <div class="divider is-long"></div>
+                                        <p class="is-light">As the BUMooN tokens aimed at
+                                            sustainability projects also evolves it’s journey to the next level of
+                                            balance
+                                            between
+                                            environmental, business, and technology, BUMooN teams continuously keep on
+                                            track
+                                            to do charity work to grow more oxygen resources.
+                                        </p>
+                                        <!-- <div class="cta-wrapper">
+                                    <a href="/BUMooN Whitepaper.pdf" target="_blank"
+                                        class="button k-button k-primary raised has-gradient is-bold">
+                                        <span class="text">Learn More</span>
+                                        <span class="front-gradient"></span>
+                                    </a>
+                                </div> -->
+                                    </div>
+                                </div>
+
+                                <!-- Feature image only for mobile -->
+                                <div class="column is-7 is-hidden-desktop is-hidden-tablet" style="text-align: center;">
+                                    <img class="side-feature" src="img/plant.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="columns is-vcentered">
+                                <!-- Feature content -->
+                                <div class="column is-5 is-offset-1">
+                                    <div class="side-feature-content">
+
+                                        <div class="about column is-vcentered">
+                                            <h3 class="about title is-4 is-light"><img src="img/verified-icon.png"
+                                                    alt="">
+                                                <span>SooLAR</span>
+                                            </h3>
+                                        </div>
+                                        <div class="divider is-long"></div>
+                                        <p class="is-light">BUMooN relation and partnership teams managed to work in
+                                            tandem
+                                            with
+                                            Solar Energy
+                                            Company with the intention of making BUMooN tokens available for reward and
+                                            also verified carbon reduction collectors
+                                            provided by the company.</p>
+                                        <!-- <div class="cta-wrapper">
+                                    <a href="/BUMooN Whitepaper.pdf" target="_blank"
+                                        class="button k-button k-primary raised has-gradient is-bold">
+                                        <span class="text">Learn More</span>
+                                        <span class="front-gradient"></span>
+                                    </a>
+                                </div> -->
+                                    </div>
+                                </div>
+
+                                <!-- Feature image -->
+                                <div class="column is-7" style="text-align: center;">
+                                    <img class="side-feature" src="img/soolar.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="columns is-vcentered">
+                                <!-- Feature image desktop -->
+                                <div class="column is-7 is-hidden-mobile" style="text-align: center;">
+                                    <img class="side-feature" src="img/carboon.png" alt="">
+                                </div>
+
+                                <!-- Feature content -->
+                                <div class="column is-5">
+                                    <div class="side-feature-content">
+                                        <div class="about column is-vcentered">
+                                            <h3 class="about title is-4 is-light"><img src="img/verified-icon.png"
+                                                    alt="">
+                                                <span>CARBooN</span>
+                                            </h3>
+                                        </div>
+                                        <div class="divider is-long"></div>
+                                        <p class="is-light">The next level action of carbon reduction, participate over
+                                            the carbon trading market in return for revenue stream wrapped under the
+                                            BUMooN closed-loop business models
+                                        </p>
+                                        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+                                    </div>
+                                </div>
+
+                                <!-- Feature image only for mobile -->
+                                <div class="column is-7 is-hidden-desktop is-hidden-tablet" style="text-align: center;">
+                                    <img class="side-feature" src="img/carboon.png" alt="">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- /Content wrapper -->
+                    </div>
+                    <br></br>
+                    <div class="columns is-vcentered" style="text-align: center">
+                        <div class="column is-12">
+                            <p class="is-light" style="color: white;">Don't Get The Wrong Idea</p>
+                            <br>
+                            <!-- <div class="cta-wrapper" style="margin: auto;">
+                        <a href="/BUMooN Whitepaper.pdf" target="_blank"
+                            class="button k-button k-primary raised has-gradient is-bold">
+                            <span class="text">READ THE DOC</span>
+                            <span class="front-gradient"></span>
+                        </a>
+                    </div> -->
+                            <div class="button-block" style="margin: auto;width: 40%;">
+                                <a href="/BUMooN Whitepaper.pdf" target="_blank"
+                                    class="button k-button k-secondary raised has-gradient is-bold is-fullwidth rounded">
+                                    <span class="text" style="color: black;">WHITEPAPER v2</span>
+                                    <span class="front-gradient"></span>
+                                </a>
+                                <br>
+                                <p class="is-light" style="color: white;">OR</p>
+                                <br>
+                                <a href="https://docs.bumoon.io" target="_blank"
+                                    class="button k-button k-secondary raised has-gradient is-bold is-fullwidth rounded">
+                                    <span class="text" style="color: black;">READ THE DOCS</span>
+                                    <span class="front-gradient"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /Container -->
+                </section>
+                <!-- /Side Features section -->
+
+                <!-- ICO section -->
+                <section class="section is-medium is-end" id="tokenomicssection" style="padding-bottom: 0px!important;">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Divider -->
+                        <div class="divider is-centered"></div>
+                        <!-- Title & subtitle -->
+                        <h2 class="title is-light is-semibold has-text-centered is-spaced">Tokenomics</h2>
+
+                        <h4 class="subtitle is-6 is-light has-text-centered is-compact">BUMooN offers presale events
+                            such as
+                            some random burning activities and VIP buyers. In another side we have a token warehouse in
+                            purpose to hold, receive, deliver reward, private sale, and distribute the tokens that
+                            circulate
+                            over the real business activity, those parts are explained
+                            in our tokenomics
+                            as
+                            illustrated
+                            below.</h4>
+                        <div class="column is-3 is-centered" style="margin: auto!important">
+                            <a style="width: 100%;margin-top: 20px" href="https://docs.bumoon.io/token"
+                                class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                <span class="text">Learn More About The Token</span>
+                                <span class="front-gradient"></span>
+                            </a>
+                        </div>
+
+                        <!-- Content wrapper -->
+                        <div class="content-wrapper is-large" id="tabs-ico" style="height: 842px!important;">
+
+                            <!-- Flying tabs wrapper -->
+                            <div class="flying-wrapper">
+                                <!-- Tabs container -->
+
+                                <div class="tab-content" class="is-active" style="display: block!important;">
+                                    <div class="columns is-vcentered tab-content-wrapper">
+
+                                        <!-- Tab image -->
+                                        <div class="column is-5 animated preFadeInUp fadeInUp"
+                                            style="margin : auto;margin-top:50px">
+                                            <canvas id="tokenomicschart"></canvas>
+                                            <div class="container" style="padding: 25px!important;">
+                                                <h4 class="subtitle is-6 is-light has-text-centered is-compact">
+                                                    <b>40%</b>
+                                                    of
+                                                    Total Supply stored in warehouse will be burned randomly (time,
+                                                    date
+                                                    &
+                                                    amount) until the presale event closes.
+                                                    BUMooN Teams provide <b>30%</b> of total supply to DEX liquidity
+                                                    pool, LP token
+                                                    received from the pool will be <b style="color: red;">LOCKED</b>
+                                                    for
+                                                    <b style="color: red;">2 YEARS</b>, <b>6%</b> taken as developer
+                                                    fee,
+                                                    and lastly <b>24%</b> has been burned
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- /Tab 4 -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Content wrapper -->
+        </div>
+        <!-- /Container -->
+        </section>
+        <!-- /ICO section -->
+
+
+        <div class="roadmap-wrapper" id="roadmapsection" style="background: #0d01017a !important;">
+            <div class="container" style="padding: 25px!important;">
+                <div class="divider is-centered" style="margin-top: 0px!important;"></div>
+                <!-- Title & subtitle -->
+                <h2 class="title is-light is-semibold has-text-centered is-spaced">Roadmap</h2>
+                <h4 class="subtitle is-6 is-light has-text-centered is-compact">Long the way ahead to Pluto, so Moon for
+                    the short. BUMooN strategic plan wrapped into 4 phase for short, more to come in the future</h4>
+            </div>
+            <section x-data="initRoadmap()" x-init="setupRoadmap()" id="roadmap" class="main-timeline">
+                <ul>
+                    <li>
+                        <div class="cards">
+                            <span class="item-title">Platform Launch</span>
+                            <time>June 5th</time>
+                            <span class="item-content">
+                                BUMooN launch on June 5th 2021, burned it's tokens up to 24% of total supply. Start
+                                presale until Dec 1st 2021. Build a community and social media engangement. Meanwhile
+                                another part of
+                                teams focuses on partnership, merchandise and green enforcement
+                            </span>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span class="item-title">Enforce, Execute, Engange</span>
+                            <time>August 2021</time>
+                            <span class="item-content">
+                                Listing in top layer Exchange, kick off Save Our Planet Project I (Garbage Mining) in
+                                parallel with BUMooN Save Our Planet Apps develop, Routine burn, Plant and Plans (BUMO²N
+                                Projects Execute)
+                            </span>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span class="item-title">Expand The Ranger</span>
+                            <time>October 2021</time>
+                            <span class="item-content">
+                                Expand Teams, Garbage Mining drop location, more influencer on the run, SooLAR
+                                Execute (Solar Panel Company partners with BUMooN are ready to provide BUMooN as their
+                                customer rewards)
+                            </span>
+                            <!-- <span class="more">
+                                <i data-feather="file-text"></i>
+                                <a href="#">Read Whitepaper</a>
+                            </span> -->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span class="item-title">Last but not least</span>
+                            <time>End of 2021 - 3rd Quarter of 2022</time>
+                            <span class="item-content">
+                                Listing on Exchange part 2, Establish physical BUMooN Office Locations to Facilitate
+                                Ecological Operations, Continue to Expand Charity Partnership Network Through Regular
+                                Outreach and
+                                Collaboration, Mobile Apps enhancement, seek for regulation and legal statement (in
+                                parallel on 3rd quarter)
+                            </span>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </section>
+
+        </div>
+
+
+
+
+
+        <!-- <section class="section is-medium is-darkest">
+         
+            <div class="container">
+            
+                <div class="divider is-centered"></div>
+           
+                <h2 class="title is-light is-semibold has-text-centered is-spaced">Our Market</h2>
+                <h4 class="subtitle is-6 is-light has-text-centered is-compact">Currently BUMooN Token is available on
+                    PancakeSwap that works under Binance Smart Chain Environment. However,
+                    you can still grab it from any other network by implementing cross chain bridging to Binance Smart
+                    Chain
+                    Network</h4>
+
+             
+                <div class="content-wrapper is-large">
+
+                   
+                    <div class="columns is-vcentered">
+                        <div>
+                            <div class="column is-12">
+                             
+                                <div class="side-feature-content">
+                               
+                                    <h3 class="title is-4 is-light"><img src="img/favicon.png" alt="">
+                                        <span style="text-align: left;">Ticker and Exchange</span>
+                                    </h3>
+                                 
+                                    <div class="divider is-long"></div>
+                                    <p class="is-light">Here are lists of available exchange and ticker for BUMooN
+                                        Token,
+                                        you can even swap here or click on the button below</p>
+                                
+                                    <div class="cta-wrapper">
+                                        <a
+                                            class="button k-button k-secondary raised has-gradient is-fat is-bold rounded">
+                                            <span class="text" id="openpancake">OPEN ON PANCAKE SWAP</span>
+                                            <span class="front-gradient"></span>
+                                        </a>
+
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="column is-12" style="height: 550px;">
+                                <table style="border:1px solid #169baa;margin: auto;height: 100%;">
+                                    <thead>
+                                        <th style="background-color: transparent!important" class="tabled">Ticker</th>
+                                        <th style="background-color: transparent!important" class="tabled">Detail</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="tabled"><img src="img/dex-guru.png" alt=""
+                                                    style="width: 70%;border-radius: 4%;"></td>
+                                            <td class="tabled"> <a id="opendexguru"
+                                                    class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                                    <span class="text">OPEN</span>
+                                                    <span class="front-gradient"></span>
+                                                </a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabled"><img src="img/poocoin.png" alt=""
+                                                    style="width: 70%;border-radius: 3%;background-color: white;"></td>
+                                            <td class="tabled"> <a id="openpoocoin"
+                                                    class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                                    <span class="text">OPEN</span>
+                                                    <span class="front-gradient"></span>
+                                                </a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <iframe id="chartticker" class="embedded" title="Embedded BUMOON" width="100%" height="800px"
+                            src="https://charts.bogged.finance/?token=0x3AefF4E27E1F9144eD75Ba65a80BdfEE345F413e&amp;embed=1">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+        <!-- /App section -->
+
+        <!-- Company section -->
+        <section class="section is-medium has-big-dark-gradient" style="padding-bottom: 1px;">
+            <!-- Container -->
+            <div class="container">
+                <!-- Divider -->
+                <div class="divider is-centered"></div>
+                <!-- Title & subtitle -->
+                <h2 class="title is-light is-semibold has-text-centered is-spaced">Meet The Maker</h2>
+                <h4 class="subtitle is-6 is-light has-text-centered is-compact">We are committed to building trust with
+                    our investors and community, conduct good towards the environment
+                    by developing sustainable technology backed by professional</h4>
+
+                <!-- Content wrapper -->
+                <div class="content-wrapper is-large" style="padding-bottom: 0px!important;">
+                    <div class="columns is-vcentered">
+
+                        <div class="column is-hidden-mobile"></div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Ryan</h4>
+                                        <div class="position" style="color: yellow;">CEO</div>
+                                        <p class="description" style="color:white">Ryan is a Blockchain enthusiast,
+                                            sociopreneur and
+                                            eco
+                                            living
+                                            mindset that concerned about technology impact to environment and in another
+                                            hand, he always found a good opportunities for business.</p>
+                                        <a href="https://www.linkedin.com/in/triyansyah-putra/" target="_blank"><img
+                                                src="img/linked-logo.png" style="width: 8%;" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140"
+                                            height="140" xmlns="http://www.w3.org/2000/svg">
+                                           
+                                            <circle class="circle-chart-background" stroke-width="1" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                          
+                                            <circle class="circle-chart-circle" stroke-width="1"
+                                                stroke-dasharray="33,100" stroke-linecap="round" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                        </svg>
+                                      
+                                        <img class="is-sketch" src="img/team/john.svg" alt="">
+                                      
+                                        <img class="is-real" src="img/triyan.gif" alt="">
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Adya</h4>
+                                        <div class="position" style="color: yellow;">CSMO</div>
+                                        <p class="description" style="color:white">Professional Trader that also work
+                                            smooth on social media for almost 3 years, got a lot of social media
+                                            platform managed by him, thumbs up!.</p><br>
+                                        <a href="https://www.linkedin.com/in/adya-kemara-3516229b/" target="_blank"><img
+                                                src="img/linked-logo.png" style="width: 8%;" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140"
+                                            height="140" xmlns="http://www.w3.org/2000/svg">
+                                           
+                                            <circle class="circle-chart-background" stroke-width="1" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                          
+                                            <circle class="circle-chart-circle" stroke-width="1"
+                                                stroke-dasharray="33,100" stroke-linecap="round" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                        </svg>
+                                      
+                                        <img class="is-sketch" src="img/team/john.svg" alt="">
+                                      
+                                        <img class="is-real" src="img/triyan.gif" alt="">
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Dian</h4>
+                                        <div class="position" style="color: yellow;">CFO</div>
+                                        <p class="description" style="color:white;margin-bottom: 15px;">First, money
+                                            can't makes you happy so do i. second, if my skills makes your money happy,
+                                            you can ignore the first</p><br>
+                                        <a href="https://www.linkedin.com/in/dian-agustian-hadi-b209b1202/"
+                                            target="_blank"><img src="img/linked-logo.png" style="width: 8%;"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-hidden-mobile"></div>
+                    </div>
+
+                    <div class="columns is-vcentered">
+
+                        <div class="column is-hidden-mobile"></div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140"
+                                            height="140" xmlns="http://www.w3.org/2000/svg">
+                                           
+                                            <circle class="circle-chart-background" stroke-width="1" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                          
+                                            <circle class="circle-chart-circle" stroke-width="1"
+                                                stroke-dasharray="33,100" stroke-linecap="round" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                        </svg>
+                                      
+                                        <img class="is-sketch" src="img/team/john.svg" alt="">
+                                      
+                                        <img class="is-real" src="img/triyan.gif" alt="">
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Happy</h4>
+                                        <div class="position" style="color: yellow;">CMO</div>
+                                        <p class="description" style="color:white">Born to be whale, have a lot of
+                                            connections more than your linkedin on real life, if my CFO can't makes you
+                                            happy, my name does</p>
+                                        <a href="https://www.linkedin.com/in/happy-murdianto-577427104/?originalSubdomain=id"
+                                            target="_blank"><img src="img/linked-logo.png" style="width: 8%;"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140"
+                                            height="140" xmlns="http://www.w3.org/2000/svg">
+                                           
+                                            <circle class="circle-chart-background" stroke-width="1" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                          
+                                            <circle class="circle-chart-circle" stroke-width="1"
+                                                stroke-dasharray="33,100" stroke-linecap="round" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                        </svg>
+                                      
+                                        <img class="is-sketch" src="img/team/john.svg" alt="">
+                                      
+                                        <img class="is-real" src="img/triyan.gif" alt="">
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Zaky</h4>
+                                        <div class="position" style="color: yellow;">COO</div>
+                                        <p class="description" style="color:white">All my targets are calculated in
+                                            seconds, operate faster than your machine. Let's make a good impact to
+                                            environment together</p>
+                                        <a href="https://www.linkedin.com/in/imad-zaky-mubarak-9b915a2b/"
+                                            target="_blank"><img src="img/linked-logo.png" style="width: 8%;"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team member -->
+                        <div class="column is-4">
+                            <div class="team-member-container">
+                                <!-- Card -->
+                                <div class="waitingreal dark-card cards">
+                                    <!-- Avatar wrapper -->
+                                    <img class="is-real" src="" alt="">
+                                    <!-- <div class="avatar">
+                                      
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140"
+                                            height="140" xmlns="http://www.w3.org/2000/svg">
+                                           
+                                            <circle class="circle-chart-background" stroke-width="1" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                          
+                                            <circle class="circle-chart-circle" stroke-width="1"
+                                                stroke-dasharray="33,100" stroke-linecap="round" fill="none"
+                                                cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                        </svg>
+                                      
+                                        <img class="is-sketch" src="img/team/john.svg" alt="">
+                                      
+                                        <img class="is-real" src="img/triyan.gif" alt="">
+                                    </div> -->
+                                    <!-- Member meta -->
+                                    <div class="member-info">
+                                        <h4 class="title is-light is-6 is-tight" style="margin-top:10px">Dito</h4>
+                                        <div class="position" style="color: yellow;">CTO</div>
+                                        <p class="description" style="color:white">Technology Nerd, wishes to break
+                                            something new through it while delivering good to the environment and the
+                                            world.</p>
+                                        <a href="https://www.linkedin.com/in/dendito-pratama/" target="_blank"><img
+                                                src="img/linked-logo.png" style="width: 8%;" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-hidden-mobile"></div>
+
+                    </div>
+
+                    <!-- /Content wrapper -->
+
+                    <!-- Spaced divider -->
+
+                    <!-- /Content wrapper -->
+                    <style>
+                        .tabs.is-centered::-webkit-scrollbar {
+                            display: none;
+                            overflow-x: auto;
+                        }
+                    </style>
+                    <!-- Spaced divider -->
+                    <div class="divider is-centered is-spacer" id="partnersection"></div>
+                    <!-- Title & subtitle -->
+                    <h2 class="title is-light is-semibold has-text-centered is-spaced">Media & Partners</h2>
+                    <h4 class="subtitle is-6 is-light has-text-centered is-compact">BUMooN are open for partnership,
+                        investor relations, and community, BUMooN is for everyone who cares about the environment and
+                        technology impact while keeping opportunities in business. Feel free to reach us on our social
+                        media</h4>
+
+                    <div class="content-wrapper is-large" style="padding-bottom: 0px!important;">
+                        <h4 onclick="javascript:location.href='https://www.instagram.com/bumoon.io/'"
+                            class="subtitle is-6 is-light has-text-centered is-compact"
+                            style="border:1px solid white;padding:5px;border-radius:5px;margin-bottom:10px">Instagram
+                        </h4>
+                        <div class="tabs is-centered" id="instafeed">
+                            <!-- <div class="column is-3" id="instafeed" style="display: inherit;">
+
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div id="modaltg" class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <div class="flex-card simple-shadow">
+                                <div class="card-body">
+                                    <div class="content">
+                                        <div class="column is-12" style="text-align: center;">
+                                            <div class="dark-card cards">
+                                                <div class="column is-12">
+                                                    <div>
+                                                        <img style="width: 29%;margin-bottom: 30px;"
+                                                            src="img/logo/telegram.svg" alt="">
+
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://t.me/bumoonenglish" target="_blank" class="button k-button k-primary raised has-gradient is-fat
+                                                            is-bold" style="width: 100%;margin-bottom: 20px;">
+                                                            <span class="text"> <img src="img/uslogo.png" style="width: 20px;
+                                                                margin-right: 10px;
+                                                                vertical-align: middle;
+                                                                margin-bottom: 4px;" alt="">Telegram English</span>
+                                                            <span class="front-gradient"></span>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <a href="https://t.me/joinchat/KPcIo1MtMdY1ZDM1" target="_blank"
+                                                            class="button k-button k-primary raised has-gradient is-fat is-bold"
+                                                            style="width: 100%;margin-bottom: 20px;">
+
+                                                            <span class="text"> <img src="img/idlogo.png" alt="" style="width: 20px;
+                                                                margin-right: 10px;
+                                                                vertical-align: middle;
+                                                                margin-bottom: 4px;">Telegram Indonesia</span>
+                                                            <span class="front-gradient"></span>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <a id="closemodal" style="color: white;border: none;">
+                                                            <span class="text">Close</span>
+                                                            <span class="front-gradient"></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="modal-close is-large is-hidden" aria-label="close"></button>
+                    </div>
+                    <!-- Content wrapper -->
+                    <div class="content-wrapper is-large" style="padding-bottom: 0px!important;">
+
+                        <div class="tabs is-centered" id="tabmedsos">
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards">
+                                    <img class="telegram" src="img/logo/telegram.svg" alt="">
+                                    <a id="clicktg" style="color: white;border: none;" target="_blank">Telegram</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards">
+                                    <img class="telegram" src="img/logo/github-logo.png" alt="">
+                                    <a href="https://github.com/bumoonio/bumoon" target="_blank"
+                                        style="color: white;border: none">Github</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards" style="padding:29px;padding-left:40px">
+                                    <img class="telegram" src="img/logo/instagram-logo.png" alt="">
+                                    <a href="https://www.instagram.com/bumoon.io/" style="color: white;border: none"
+                                        target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards">
+                                    <img class="telegram" src="img/logo/twitter-logo.png" alt="">
+                                    <a href="https://twitter.com/Bumoon_io" style="color: white;border: none"
+                                        target="_blank">Twitter</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards" style="padding:29px;padding-left:40px">
+                                    <img class="telegram" src="img/logo/facebook-logo.png" alt="">
+                                    <a href="https://www.facebook.com/BUMooNio-102624585390653"
+                                        style="color: white;border: none" target="_blank">Facebook</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards">
+                                    <img class="telegram" src="img/logo/medium-logo.png" alt="">
+                                    <a href="https://bumoon.medium.com/" style="color: white;border: none;"
+                                        target="_blank">Medium</a>
+                                </div>
+                            </div>
+                            <div class="column is-2" style="text-align: center;">
+                                <div class="dark-card cards" style="padding:29px;padding-left:40px">
+                                    <img class="telegram" src="img/logo/discord-logo.png" alt="">
+                                    <a href="https://discord.gg/xFMZ9dxqVB" style="color: white;border: none;"
+                                        target="_blank">Discord</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="columns">
+                           
+                            <div class="column is-10 is-offset-1">
+
+                              
+                                <div class="blog-post">
+                                    <a href="#">
+                                       
+                                        <div class="featured-image">
+                                            <img src="img/media/post1.svg" alt="">
+                                        </div>
+
+                                      
+                                        <div class="content">
+                                            <div class="post-title">Blockchain for dummies <span
+                                                    class="blog-date">27.05.2021</span></div>
+                                            <p>
+                                                Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
+                                                Lorem Ipsum, adı
+                                                bilinmeyen bir matbaacının bir hurufat numune kitabı...
+                                            </p>
+                                           
+                                            <div class="post-meta">
+                                                <div class="author-block">
+                                                    <div class="image is-32x32">
+                                                        <img src="img/team/john.jpg" alt="">
+                                                    </div>
+                                                    <div class="author-name">by John Cambell</div>
+                                                </div>
+                                                <div class="stats-block">
+                                                    <div class="comments">
+                                                        <i data-feather="message-circle"></i>
+                                                        <span>3</span>
+                                                    </div>
+                                                    <div class="likes">
+                                                        <i data-feather="heart"></i>
+                                                        <span>9</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                              
+                                <div class="blog-post">
+                                    <a href="#">
+                                   
+                                        <div class="featured-image">
+                                            <img src="img/media/post2.svg" alt="">
+                                        </div>
+                                   
+                                        <div class="content">
+                                            <div class="post-title">The chain algorythm <span
+                                                    class="blog-date">15.04.2021</span></div>
+                                            <p>
+                                                Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
+                                                Lorem Ipsum, adı
+                                                bilinmeyen bir matbaacının bir hurufat numune kitabı...
+                                            </p>
+                                          
+                                            <div class="post-meta">
+                                                <div class="author-block">
+                                                    <div class="image is-32x32">
+                                                        <img src="img/team/joshua.jpg" alt="">
+                                                    </div>
+                                                    <div class="author-name">by Joshua Stevens</div>
+                                                </div>
+                                                <div class="stats-block">
+                                                    <div class="comments">
+                                                        <i data-feather="message-circle"></i>
+                                                        <span>7</span>
+                                                    </div>
+                                                    <div class="likes">
+                                                        <i data-feather="heart"></i>
+                                                        <span>29</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                           
+                                <div class="blog-post">
+                                    <a href="#">
+                                  
+                                        <div class="featured-image">
+                                            <img src="img/media/post3.svg" alt="">
+                                        </div>
+                                     
+                                        <div class="content">
+                                       
+                                            <div class="post-title">What is Crypto mining ? <span
+                                                    class="blog-date">02.04.2021</span></div>
+                                            <p>
+                                                Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
+                                                Lorem Ipsum, adı
+                                                bilinmeyen bir matbaacının bir hurufat numune kitabı...
+                                            </p>
+                                        
+                                            <div class="post-meta">
+                                                <div class="author-block">
+                                                    <div class="image is-32x32">
+                                                        <img src="img/team/sandra.jpg" alt="">
+                                                    </div>
+                                                    <div class="author-name">by Sandra Bernard</div>
+                                                </div>
+                                                <div class="stats-block">
+                                                    <div class="comments">
+                                                        <i data-feather="message-circle"></i>
+                                                        <span>31</span>
+                                                    </div>
+                                                    <div class="likes">
+                                                        <i data-feather="heart"></i>
+                                                        <span>48</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        
+                        </div> -->
+
+                        <!-- CTA -->
+                        <!-- <div class="cta-wrapper has-text-centered">
+                            <a href="#" class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                <span class="text">More Articles</span>
+                                <span class="front-gradient"></span>
+                            </a>
+                        </div> -->
+                        <div class="cta-wrapper has-text-centered">
+                            <h4 class="subtitle is-6 is-light has-text-centered is-compact">Copyright © 2021 BUMooN.io -
+                                PT Bumoon Untuk Menghijaukan Negeri
+                            </h4>
+                        </div>
+
+
+                    </div>
+                    <!-- /Content wrapper -->
+                </div>
+        </section>
+        <!-- /Company section -->
+
+
+        <!-- Contact section -->
+    </div>
+
+
+    <div x-data="initBackToTop()" x-on:scroll.window="scroll($event)" @click="goTop($event)" id="backtotop"><a
+            href="javascript:" :class="{
+        'visible': scrolled,
+        '': !scrolled
+    }"></a></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/4.1.0/spin.min.js"
+        integrity="sha512-CbohqWjAgarTqRHcX1MbwkF2pujwbsCee1PABpnBWC+VqSldvlNEEI5+4OSsR/HbFQOFFpwY2YvZZNjBMxNnXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/spinner.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.1/Tocca.min.js"
+        integrity="sha512-sAPf4eADomXUwtlYGMRnVpR4juc8imAMGx8kNlsKJZC1XlP6uWoiYefQsjOhfR9mBZP2wdJ+Vxqjo+YyJ57KTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"
+        integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/1.5.0/jquery.waitforimages.min.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+    <script src="./js/bundle.js"></script>
+</body>
+
+</html>
+
+<script>
+
+
+
+
+
+
+
+    const flavoursContainer = document.getElementById('tabmedsos')
+    const flavoursScrollWidth = flavoursContainer.scrollWidth;
+    var $elem = $('#tabmedsos');
+    var totheright = true;
+    window.addEventListener('load', () => {
+        self.setInterval(() => {
+            // console.log(flavoursContainer.scrollWidth, flavoursContainer.scrollLeft)
+            if (totheright) {
+                if (flavoursContainer.scrollLeft != flavoursScrollWidth) {
+                    flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
+                }
+            } else {
+                flavoursContainer.scrollTo(flavoursContainer.scrollLeft - 1, 0);
+            }
+
+            var newScrollLeft = $elem.scrollLeft(),
+                width = $elem.outerWidth(),
+                scrollWidth = $elem.get(0).scrollWidth;
+            if (scrollWidth - newScrollLeft == width) {
+                totheright = false;
+
+            }
+
+            if (flavoursContainer.scrollLeft == 0) {
+                totheright = true;
+            }
+
+
+
+        }, 50);
+    });
+
+
+    var ctx = document.getElementById('tokenomicschart').getContext('2d');
+    var mipie = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [40, 30, 6, 24],
+                backgroundColor: [
+                    '#169baa',
+                    '#31394c',
+                    '#03fd9f',
+                    'red'
+                ],
+            }],
+            labels: [
+                'Warehouse',
+                'Liquidity',
+                'Developers',
+                'Burn'
+            ]
+        },
+        options: {
+            // animation: {
+            //     tension: {
+            //         duration: 1000,
+            //         easing: 'linear',
+            //         from: 1,
+            //         to: 0,
+            //         loop: true
+            //     }
+
+            // },
+            plugins: {
+
+                tooltip: {
+                    enabled: true,
+                    mode: 'point',
+                    callbacks: {
+                        title: function (tooltipItem, data) {
+                            return tooltipItem[0].label;
+                        },
+                        label: function (tooltipItem, data) {
+                            console.log(tooltipItem)
+                            return tooltipItem.formattedValue + '%';
+                        },
+                        // afterLabel: function (tooltipItem, data) {
+                        //     var dataset = tooltipItem[0];
+                        //     var percent = Math.round((dataset['data'][tooltipItem['index']] / dataset["_meta"][0]['total']) * 100)
+                        //     return '(' + percent + '%)';
+                        // }
+                    },
+                    backgroundColor: '#0000000',
+                    titleFontSize: 16,
+                    titleFontColor: '#000000',
+                    bodyColor: '#169baa',
+                    displayColors: false,
+                    titleAlign: 'center',
+                    bodyAlign: 'center',
+                    bodyFont: {
+                        size: 30,
+                        weight: 'bold'
+                    },
+                    bodySpacing: 5,
+                    padding: 20
+                },
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                    display: true,
+                    labels: {
+                        color: 'white',
+                        padding: 40
+                    },
+
+                }
+            },
+
+
+
+        },
+    });
+
+
+
+
+
+
+    // $('<img />')
+    //     .attr('src', 'img/bumoon-icon.png')
+    //     .load(function () {
+    //         $('.profile').append($(this));
+    //         // Your other custom code
+    //     });
+    
+    var done = false;
+    $(document).ready(function () {
+
+
+        $('#clicktg').click(function () {
+            $('#modaltg').addClass('is-active').fadeOut(0).fadeIn('fast')
+        })
+
+        $('#closemodal').click(function () {
+            $('#modaltg').removeClass('is-active')
+        })
+
+        $.get('https://graph.instagram.com/17841445440456237/media?', {
+            access_token: 'IGQVJWV2JDZAGFMNmxLRXRQZAkVreTZAETTdPUjJWdWhsbTdrcGtHR1I5aHF2cURHcHpCRlZAlWTFnQlM0N0I3TDNfZAUVEUjE4YXp5bWdxY0praHo1N1pLLXRaa0ZA5UEJzaV9uUjdCTjE1SlBrNTdHaUdhNAZDZD',
+            fields: 'media_url,permalink,thumbnail_url,caption'
+        }, function (data) {
+            for (var i = 0; i < 5; i++) {
+                if (data['data'][i].hasOwnProperty("thumbnail_url")) {
+                    var src = data['data'][i]['thumbnail_url']
+                } else {
+                    var src = data['data'][i]['media_url']
+                }
+                if (i == 2) {
+                    var img = '<div class="column is-4" style="text-align:center">' +
+                        '<a style="border:none!important" href="' + data['data'][i]['permalink'] + '"><img style="height:228px;max-width:228px;border: 2px solid cyan;border-radius: 10px;" src="' + src + '" alt=""></a>' +
+                        '<a href="' + data['data'][i]['permalink'] + '" style="color: white;border: none;"' +
+                        'target="_blank">' + (data['data'][i]['caption']).substring(0, 20) + '..</a>';
+                    '</div>';
+                } else {
+                    var img = '<div class="column is-2" style="text-align:center">' +
+                        '<a style="border:none!important" href="' + data['data'][i]['permalink'] + '"><img style="height:150px;max-width:150px;border: 2px solid cyan;border-radius: 10px;" src="' + src + '" alt=""></a>' +
+                        '<a href="' + data['data'][i]['permalink'] + '" style="color: white;border: none;"' +
+                        'target="_blank">' + (data['data'][i]['caption']).substring(0, 20) + '..</a>';
+                    '</div>';
+                }
+
+                // var img = '<div class="image-item insta-page">' +
+                //     '<a class="image insta-image" href="' + data['data'][i]['permalink'] + '">' +
+                //     '<img src="' + src + '">' +
+                //     '<div class="img-backdrop-tutorial">' +
+                //     '<div class="insta-caption">' +
+                //     '<p>' + data['data'][i]['caption'] + '</p>' +
+                //     '</div>' +
+                //     '</div>' +
+                //     '<div class="captions">' +
+                //     '<a></a>' +
+                //     '</div>' +
+                //     '</a>' +
+                //     '</div>';
+                $('#instafeed').append(img);
+            }
+        })
+
+
+
+
+        // setTimeout(() => {
+        //     $('#tsparticles').hide('slow')
+        //     // $("#tsparticles").slideUp("slow", function () {
+        //     //     // Animation complete.
+        //     // });
+        // }, 3000);
+
+        $("#tsparticles")
+            .particles()
+            .init(
+                {
+                    "autoPlay": true,
+                    "background": {
+                        "color": {
+                            "value": "transparent"
+                        },
+                        // "image": "url('http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif')",
+                        // "position": "0 50%",
+                        // "repeat": "no-repeat",
+                        // "size": "60%",
+                        // "opacity": 1
+                    },
+                    "backgroundMask": {
+                        "composite": "destination-out",
+                        "cover": {
+                            "color": {
+                                "value": "#fff"
+                            },
+                            "opacity": 1
+                        },
+                        "enable": false
+                    },
+                    "fullScreen": {
+                        "enable": true,
+                        "zIndex": -1
+                    },
+                    "detectRetina": true,
+                    "fpsLimit": 40,
+                    "infection": {
+                        "cure": false,
+                        "delay": 0,
+                        "enable": false,
+                        "infections": 0,
+                        "stages": []
+                    },
+
+                    "manualParticles": [],
+                    "motion": {
+                        "disable": false,
+                        "reduce": {
+                            "factor": 4,
+                            "value": true
+                        }
+                    },
+                    "particles": {
+                        "bounce": {
+                            "horizontal": {
+                                "random": {
+                                    "enable": false,
+                                    "minimumValue": 0.1
+                                },
+                                "value": 1
+                            },
+                            "vertical": {
+                                "random": {
+                                    "enable": false,
+                                    "minimumValue": 0.1
+                                },
+                                "value": 1
+                            }
+                        },
+                        "collisions": {
+                            "bounce": {
+                                "horizontal": {
+                                    "random": {
+                                        "enable": false,
+                                        "minimumValue": 0.1
+                                    },
+                                    "value": 1
+                                },
+                                "vertical": {
+                                    "random": {
+                                        "enable": false,
+                                        "minimumValue": 0.1
+                                    },
+                                    "value": 1
+                                }
+                            },
+                            "enable": false,
+                            "mode": "bounce",
+                            "overlap": {
+                                "enable": true,
+                                "retries": 0
+                            }
+                        },
+                        "color": {
+                            "value": "#ffffff",
+                            "animation": {
+                                "h": {
+                                    "count": 0,
+                                    "enable": false,
+                                    "offset": 0,
+                                    "speed": 1,
+                                    "sync": true
+                                },
+                                "s": {
+                                    "count": 0,
+                                    "enable": false,
+                                    "offset": 0,
+                                    "speed": 1,
+                                    "sync": true
+                                },
+                                "l": {
+                                    "count": 0,
+                                    "enable": false,
+                                    "offset": 0,
+                                    "speed": 1,
+                                    "sync": true
+                                }
+                            }
+                        },
+                        "destroy": {
+                            "mode": "none",
+                            "split": {
+                                "count": 1,
+                                "factor": {
+                                    "random": {
+                                        "enable": false,
+                                        "minimumValue": 0
+                                    },
+                                    "value": 3
+                                },
+                                "rate": {
+                                    "random": {
+                                        "enable": false,
+                                        "minimumValue": 0
+                                    },
+                                    "value": {
+                                        "min": 4,
+                                        "max": 9
+                                    }
+                                },
+                                "sizeOffset": true
+                            }
+                        },
+                        "life": {
+                            "count": 0,
+                            "delay": {
+                                "random": {
+                                    "enable": false,
+                                    "minimumValue": 0
+                                },
+                                "value": 0,
+                                "sync": false
+                            },
+                            "duration": {
+                                "random": {
+                                    "enable": false,
+                                    "minimumValue": 0.0001
+                                },
+                                "value": 0,
+                                "sync": false
+                            }
+                        },
+                        "links": {
+                            "blink": false,
+                            "color": {
+                                "value": "#ffffff"
+                            },
+                            "consent": false,
+                            "distance": 150,
+                            "enable": false,
+                            "frequency": 1,
+                            "opacity": 0.4,
+                            "shadow": {
+                                "blur": 5,
+                                "color": {
+                                    "value": "#00ff00"
+                                },
+                                "enable": false
+                            },
+                            "triangles": {
+                                "enable": false,
+                                "frequency": 1
+                            },
+                            "width": 1,
+                            "warp": false
+                        },
+                        "move": {
+                            "angle": {
+                                "offset": 0,
+                                "value": 90
+                            },
+                            "attract": {
+                                "distance": 200,
+                                "enable": false,
+                                "rotate": {
+                                    "x": 600,
+                                    "y": 1200
+                                }
+                            },
+                            "decay": 0,
+                            "distance": 0,
+                            "direction": "left",
+                            "drift": 0,
+                            "enable": true,
+                            "gravity": {
+                                "acceleration": 9.81,
+                                "enable": false,
+                                "inverse": false,
+                                "maxSpeed": 50
+                            },
+                            "path": {
+                                "clamp": true,
+                                "delay": {
+                                    "random": {
+                                        "enable": false,
+                                        "minimumValue": 0
+                                    },
+                                    "value": 0
+                                },
+                                "enable": false
+                            },
+                            "outModes": {
+                                "default": "out",
+                                "bottom": "out",
+                                "left": "out",
+                                "right": "out",
+                                "top": "out"
+                            },
+                            "random": false,
+                            "size": false,
+                            //particle speed
+                            "speed": 1,
+                            "straight": true,
+                            "trail": {
+                                "enable": false,
+                                "length": 10,
+                                "fillColor": {
+                                    "value": "#000000"
+                                }
+                            },
+                            "vibrate": false,
+                            "warp": false
+                        },
+                        "number": {
+                            "density": {
+                                "enable": false,
+                                "area": 800,
+                                "factor": 1000
+                            },
+                            "limit": 0,
+                            "value": 50
+                        },
+                        //opacity item
+                        "opacity": {
+                            "random": {
+                                "enable": true,
+                                "minimumValue": 0.35
+                            },
+                            "value": 1,
+                            "animation": {
+                                "count": 0,
+                                "enable": false,
+                                "speed": 1,
+                                "sync": false,
+                                "destroy": "none",
+                                "minimumValue": 0.1,
+                                "startValue": "random"
+                            }
+                        },
+                        "reduceDuplicates": false,
+                        "roll": {
+                            "darken": {
+                                "enable": false,
+                                "value": 0
+                            },
+                            "enable": false,
+                            "enlighten": {
+                                "enable": false,
+                                "value": 0
+                            },
+                            "speed": 25
+                        },
+                        "rotate": {
+                            "random": {
+                                "enable": true,
+                                "minimumValue": 1
+                            },
+                            "value": 1,
+                            "animation": {
+                                "enable": true,
+                                "speed": 21,
+                                "sync": false
+                            },
+                            "direction": "clockwise",
+                            "path": false
+                        },
+                        "shadow": {
+                            "blur": 0,
+                            "color": {
+                                "value": "#000000"
+                            },
+                            "enable": false,
+                            "offset": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "shape": {
+                            "options": {
+                                // "star": {
+                                //     "sides": 5
+                                // }
+                                "image": [
+                                    {
+                                        "src": "/img/tree1.png",
+                                        "width": "52",
+                                        "height": "52"
+                                    },
+                                    {
+                                        "src": "/img/tree2.png",
+                                        "width": "32",
+                                        "height": "32"
+                                    },
+                                    {
+                                        "src": "/img/tree3.png",
+                                        "width": "32",
+                                        "height": "62"
+                                    }
+                                ]
+                            },
+                            "type": "image"
+                        },
+                        "size": {
+                            "random": {
+                                "enable": true,
+                                "minimumValue": 1
+                            },
+                            "value": {
+                                "min": 1,
+                                "max": 15
+                            },
+                            "animation": {
+                                "count": 0,
+                                "enable": false,
+                                "speed": 40,
+                                "sync": false,
+                                "destroy": "none",
+                                "minimumValue": 0.1,
+                                "startValue": "random"
+                            }
+                        },
+                        "stroke": {
+                            "width": 0
+                        },
+                        "tilt": {
+                            "random": {
+                                "enable": false,
+                                "minimumValue": 0
+                            },
+                            "value": 0,
+                            "animation": {
+                                "enable": false,
+                                "speed": 0,
+                                "sync": false
+                            },
+                            "direction": "clockwise",
+                            "enable": false
+                        },
+                        "twinkle": {
+                            "lines": {
+                                "enable": false,
+                                "frequency": 0.05,
+                                "opacity": 1
+                            },
+                            "particles": {
+                                "enable": false,
+                                "frequency": 0.05,
+                                "opacity": 1
+                            }
+                        },
+                        "wobble": {
+                            "distance": 5,
+                            "enable": false,
+                            "speed": 50
+                        }
+                    },
+                    "pauseOnBlur": true,
+                    "pauseOnOutsideViewport": true,
+                    "responsive": [],
+                    "themes": []
+                },
+                // {
+                //   background: {
+                //     color: {
+                //       value: "transparent",
+                //     },
+                //   },
+                //   fpsLimit: 60,
+                //   interactivity: {
+                //     //detectsOn: "canvas",
+                //     events: {
+                //     //   onClick: {
+                //     //     enable: true,
+                //     //     mode: "push",
+                //     //   },
+                //     //   onHover: {
+                //     //     enable: true,
+                //     //     mode: "repulse",
+                //     //   },
+                //       resize: true,
+                //     },
+                //     // modes: {
+                //     //   bubble: {
+                //     //     distance: 400,
+                //     //     duration: 2,
+                //     //     opacity: 0.8,
+                //     //     size: 40,
+                //     //   },
+                //     //   push: {
+                //     //     quantity: 4,
+                //     //   },
+                //     //   repulse: {
+                //     //     distance: 200,
+                //     //     duration: 0.4,
+                //     //   },
+                //     // },
+                //   },
+                //   particles: {
+                //     color: {
+                //       value: "#ffffff",
+                //     },
+                //     links: {
+                //       color: "#ffffff",
+                //       distance: 150,
+                //       enable: false,
+                //       opacity: 0.5,
+                //       width: 0.5,
+                //     },
+                //     collisions: {
+                //       enable: false,
+                //     },
+                //     move: {
+                //       direction: "none",
+                //       enable: true,
+                //       outMode: "bounce",
+                //       random: false,
+                //       speed: 1,
+                //       straight: false,
+                //     },
+                //     number: {
+                //       density: {
+                //         enable: true,
+                //         value_area: 800,
+                //       },
+                //       value: 80,
+                //     },
+                //     opacity: {
+                //       value: 0.5,
+                //     },
+                //     shape: {
+                //       type: "star",
+                //     },
+                //     size: {
+                //       random: true,
+                //       value: 3,
+                //     },
+                //   },
+                //   detectRetina: true,
+                // },
+                function (container) {
+                    // container is the particles container where you can play/pause or stop/start.
+                    // the container is already started, you don't need to start it manually.
+                }
+            );
+
+        var opts = {
+            lines: 13, // The number of lines to draw
+            length: 38, // The length of each line
+            width: 17, // The line thickness
+            radius: 45, // The radius of the inner circle
+            scale: 0.2, // Scales overall size of the spinner
+            corners: 1, // Corner roundness (0..1)
+            speed: 1, // Rounds per second
+            rotate: 0, // The rotation offset
+            animation: 'spinner-line-fade-quick', // The CSS animation name for the lines
+            direction: 1, // 1: clockwise, -1: counterclockwise
+            color: '#ffffff', // CSS color or array of colors
+            fadeColor: 'transparent', // CSS color or array of colors
+            top: '40px', // Top position relative to parent
+            left: '50%', // Left position relative to parent
+            shadow: '0 0 1px transparent', // Box-shadow for the lines
+            zIndex: 2000000000, // The z-index (defaults to 2e9)
+            className: 'spinner', // The CSS class to assign to the spinner
+            position: 'relative', // Element positioning,
+
+        };
+
+        var optsmaker = {
+            lines: 13, // The number of lines to draw
+            length: 38, // The length of each line
+            width: 17, // The line thickness
+            radius: 45, // The radius of the inner circle
+            scale: 0.2, // Scales overall size of the spinner
+            corners: 1, // Corner roundness (0..1)
+            speed: 1, // Rounds per second
+            rotate: 0, // The rotation offset
+            animation: 'spinner-line-fade-quick', // The CSS animation name for the lines
+            direction: 1, // 1: clockwise, -1: counterclockwise
+            color: '#ffffff', // CSS color or array of colors
+            fadeColor: 'transparent', // CSS color or array of colors
+            top: '10px', // Top position relative to parent
+            left: '50%', // Left position relative to parent
+            shadow: '0 0 1px transparent', // Box-shadow for the lines
+            zIndex: 2000000000, // The z-index (defaults to 2e9)
+            className: 'spinners', // The CSS class to assign to the spinner
+            position: 'relative', // Element positioning,
+
+        };
+
+        var optsdesc = {
+            id: 'asdasd',
+            lines: 13, // The number of lines to draw
+            length: 38, // The length of each line
+            width: 17, // The line thickness
+            radius: 45, // The radius of the inner circle
+            scale: 0.2, // Scales overall size of the spinner
+            corners: 1, // Corner roundness (0..1)
+            speed: 1, // Rounds per second
+            rotate: 0, // The rotation offset
+            animation: 'spinner-line-fade-quick', // The CSS animation name for the lines
+            direction: 1, // 1: clockwise, -1: counterclockwise
+            color: '#ffffff', // CSS color or array of colors
+            fadeColor: 'transparent', // CSS color or array of colors
+            top: '-37px', // Top position relative to parent
+            left: '50%', // Left position relative to parent
+            shadow: '0 0 1px transparent', // Box-shadow for the lines
+            zIndex: 2000000000, // The z-index (defaults to 2e9)
+            className: 'spinner', // The CSS class to assign to the spinner
+            position: 'relative', // Element positioning,
+
+        };
+
+        var target = document.getElementById('bnbprice');
+        var spinner = new Spin.Spinner(opts).spin(target);
+
+        var targetprice = document.getElementById('bumoonprice');
+        var spinnerhodlers = new Spin.Spinner(opts).spin(targetprice);
+
+        var targethodlers = document.getElementById('hodlers');
+        var spinnerhodlers = new Spin.Spinner(optsdesc).spin(targethodlers);
+
+        var targetburned = document.getElementById('burned');
+        var spinnerhodlers = new Spin.Spinner(optsdesc).spin(targetburned);
+
+        var targetsupply = document.getElementById('totalsupply');
+        var spinnerhodlers = new Spin.Spinner(optsdesc).spin(targetsupply);
+
+        var targetMaker = document.getElementsByClassName('waitingreal');
+        for (var i = 0; i < targetMaker.length; i++) {
+            var spinnerMaker = new Spin.Spinner(optsmaker).spin(targetMaker[i]);
+        }
+
+
+
+
+
+        var src = $('body').css('background-image');
+        var url = src.match(/\((.*?)\)/)[1].replace(/('|")/g, '');
+
+        var img = new Image();
+        img.onload = function () {
+            $('.waiting').waitForImages({
+                finished: function () {
+                },
+                each: function () {
+                    // ...
+                },
+                waitForAll: true
+            }).promise().then(function () {
+
+                
+                var showreal = true
+                setTimeout(() => {
+                    var arrmakerreal = ['img/members/riyan-sweater.png',
+                        'img/members/adya-sweater.png',
+                        'img/members/dian-sweater.png',
+                        'img/members/happy-sweater.png',
+                        'img/members/zaky-sweater.png',
+                        'img/members/dito-sweater.png']
+                    var arrmaker = ['img/Triyan.gif',
+                        'img/adya.gif',
+                        'img/dian.gif',
+                        'img/happy.gif',
+                        'img/zaky.gif',
+                        'img/dito.gif']
+                    $('.is-real').each(function (index) {
+                        $(this).attr('src', arrmaker[index]).hide().fadeIn(500)
+                    });
+                    $('.is-real').waitForImages({
+                        finished: function () {
+
+                        },
+                        each: function () {
+                            // setTimeout(() => {
+
+                            //  }, 500);
+                        },
+                        waitForAll: true
+                    }).promise().then(function () {
+                        $('.spinners').remove()
+                        setInterval(() => {
+                            if (showreal) {
+
+                                $('.is-real').each(function (index) {
+
+                                    $(this).fadeOut('fast', function () {
+                                        $(this).attr('src', arrmakerreal[index])
+                                        $(this).fadeIn('fast');
+                                    });
+
+                                });
+                                $('.is-real').css('height', '290px')
+                                $('.is-real').css('width', '250px')
+                                showreal = false
+                            } else {
+                                $('.is-real').css('height', '290px')
+                                $('.is-real').css('width', '300px')
+                                $('.is-real').each(function (index) {
+                                    $(this).fadeOut('fast', function () {
+                                        $(this).attr('src', arrmaker[index])
+                                        $(this).fadeIn('fast');
+                                    });
+
+                                });
+
+                                showreal = true;
+                            }
+                        }, 5000);
+
+                    });
+                }, 2000);
+
+            });
+
+        }
+        img.src = url;
+        if (img.complete) img.onload();
+
+
+        // .on('error', function () {
+        //     $(this).attr('src', $(this).attr('src'))
+        // })
+        // .each(function () {
+
+        //     if (this.complete) {
+        //      console.log('OK')
+        //     } else if (this.error) {
+        //         $(this).error();
+        //     }
+        // });
+
+        // })
+        // $.fn.preload = function () {
+        //     this.each(function () {
+        //         console.log($('<img/>')[0].src)
+        //         $('<img/>')[0].src = this;
+
+        //     });
+        // }
+
+        // // Usage:
+
+        // $(['img/adya.gif', 'img/adya.gif', 'img/adya.gif']).preload();
+
+
+        var currentab = 3;
+        var is_swipe = false;
+        var isturn = false;
+        var startslide = setInterval(() => {
+
+
+            if (currentab == 1) {
+                isturn = false
+                jQuery(".flying-child.tab-2").click();
+                currentab = 2;
+            } else if (currentab == 2) {
+                if (isturn == true) {
+                    jQuery(".flying-child.tab-1").click();
+                    currentab = 1;
+                } else {
+                    jQuery(".flying-child.tab-4").click();
+                    currentab = 3;
+                }
+
+            } else if (currentab == 3) {
+                jQuery(".flying-child.tab-2").click();
+                currentab = 2;
+                isturn = true;
+            }
+        }, 3000);
+
+
+        $('.flying-wrapper').on('mouseup mouseleave', function () {
+
+            clearInterval(startslide)
+        })
+
+
+
+
+        // jQuery("#tabs-ico").on('swiperight', function () {
+        //     clearInterval(startslide)
+
+        //     if (currentab == 1) {
+        //         jQuery(".flying-child.tab-2").click();
+        //         currentab = 2;
+        //     } else if (currentab == 2) {
+        //         jQuery(".flying-child.tab-4").click();
+        //         currentab = 3;
+        //     } else if (currentab == 3) {
+        //         jQuery(".flying-child.tab-4").click();
+        //         currentab = 3;
+        //     }
+
+        // });
+
+
+        // jQuery("#tabs-ico").on('swipeleft', function () {
+        //     clearInterval(startslide)
+        //     if (currentab == 2) {
+        //         jQuery(".flying-child.tab-1").click();
+        //         currentab = 1
+        //     } else if (currentab == 3) {
+        //         jQuery(".flying-child.tab-2").click();
+        //         currentab = 2
+        //     } else if (currentab == 1) {
+        //         jQuery(".flying-child.tab-1").click();
+        //         currentab = 1
+        //     }
+
+        // });
+
+        // $('#chartticker').on("load", function () {
+        //     $('.left-0.absolute.w-screen.z-40.h-20').remove()
+        // });
+
+
+        $('#pancakeembed').on("load", function () {
+            $("#pancakeembed").contents().find(".iApwmM").each(function (index, element) {
+                $(this).remove()
+                console.log("removed one linkUp");
+            });
+            setTimeout(() => {
+                $('#pancakeembed').contents().find('.iApwmM').remove();
+                console.log($('#pancakeembed').contents().find('.iApwmM'))
+
+
+            }, 5000);
+
+            // $('.iApwmM').remove()
+        });
+
+        $("#getstarted,.gettoken").click(function () {
+            $('.overlay-content').animate({
+                scrollTop: $("#start").offset().top
+            }, 700, 'easeOutExpo');
+        });
+
+        $(".learnmore").click(function () {
+            $('.overlay-content').animate({
+                scrollTop: $("#big-gradient").offset().top
+            }, 500, 'easeInOutQuart');
+        });
+
+        $(".tokenomics").click(function () {
+            $('.overlay-content').animate({
+                scrollTop: $("#tokenomicssection").offset().top
+            }, 500, 'easeInOutQuart');
+        });
+
+        $(".roadmap").click(function () {
+            $('.overlay-content').animate({
+                scrollTop: $("#roadmapsection").offset().top
+            }, 500, 'easeInOutQuart');
+        });
+
+        $(".partnership").click(function () {
+            $('.overlay-content').animate({
+                scrollTop: $("#partnersection").offset().top
+            }, 500, 'easeInOutQuart');
+        });
+
+
+
+        $('#openpancake, #toto').click(function () {
+            window.open('https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e', '_blank')
+        })
+        $('#openpoocoin').click(function () {
+            window.open('https://poocoin.app/tokens/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e', '_blank')
+        })
+        $('#opendexguru').click(function () {
+            window.open('https://dex.guru/token/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e-bsc', '_blank')
+        })
+
+
+        $('#hodlers').css('margin-top', '55px')
+        $('#burned').css('margin-top', '55px')
+        $('#totalsupply').css('margin-top', '55px')
+        // $('.spinner').css('margin-top', '155%!important')
+
+        setTimeout(() => {
+            $.get('https://api.binance.me/api/v3/ticker/price?symbol=BNBUSDT', {}, function (data) {
+
+                $('#bnbprice').html('$' + parseFloat((data['price'])).toFixed(2))
+
+            })
+
+            $.get('https://api.dex.guru/v1/tokens/0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e-bsc', {}, function (data) {
+                $('#bumoonprice').html('$' + parseFloat((data['priceUSD'])).toFixed(16))
+            })
+
+
+        }, 1000);
+
+
+
+
+
+        $.post('/holders', { data: '1', _csrf: "oj1LhPHU-W5I73DQHDLRgXB5tFqmS38tuMwk" }, function (data) {
+            $('#hodlers').css('margin-top', '0px')
+            $('#hodlers').html(data.holders)
+        })
+
+        $.post('/burned', { data: '1', _csrf: "oj1LhPHU-W5I73DQHDLRgXB5tFqmS38tuMwk" }, function (data) {
+            $('#burned').css('margin-top', '0px')
+            $('#burned').html(data.burnt)
+            $('#burned').css('margin-top', '14px')
+
+            $('#totalsupply').html((1000000000000000 - parseInt(data.burnt.replace(/\,/g, ''))).toLocaleString())
+            $('#totalsupply').css('margin-top', '14px')
+        })
+
+
+
+
+
+
+
+
+        var clipboard = new ClipboardJS('#copyaddress');
+        tippy('#copyaddress', {
+            trigger: 'click',
+            content: "Copied to Clipboard!",
+        });
+        clipboard.on('success', function (e) {
+            // console.info('Action:', e.action);
+            // console.info('Text:', e.text);
+            // console.info('Trigger:', e.trigger);
+
+            e.clearSelection();
+        });
+
+        clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+        });
+
+
+
+
+
+        $(function () {
+            $('#ovr').animate({ opacity: 1 }, { duration: 800 });
+
+        })
+
+
+    })
+</script>
