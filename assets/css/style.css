@@ -1,0 +1,37 @@
+body {
+    background-color: #010a06;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.nav-top {
+    font-family: 'Nova Square', sans-serif !important;
+    font-size: 15px;
+}
+.nav-top > li {
+    margin-left: 2em;
+}
+.title-1 {
+    font-family: 'Nova Square', sans-serif;
+}
+.space-m {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.space-xl {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.btn {
+    font-family: 'Nova Square';
+}
+.title-1 {
+    font-family: 'Nova Square';
+}
+.nav-socials {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+    right: 0;
+    z-index: 100;
+}
