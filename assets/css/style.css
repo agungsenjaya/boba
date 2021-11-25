@@ -13,6 +13,9 @@ body {
 .title-1 {
     font-family: 'Nova Square', sans-serif;
 }
+.title-2 {
+    font-family: 'Roboto Mono', sans-serif;
+}
 .space-m {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -22,9 +25,6 @@ body {
     padding-bottom: 80px;
 }
 .btn {
-    font-family: 'Nova Square';
-}
-.title-1 {
     font-family: 'Nova Square';
 }
 .nav-socials {
@@ -60,5 +60,17 @@ body {
     color: #004bd3;
 }
 .border-boba {
-    border-color: #004bd3;
+    border-color: #004bd3 !important;
 }
+@supports (-webkit-text-stroke: 1px #010a06) {
+    .text-out {
+      -webkit-text-stroke: 1px #fff;
+      -webkit-text-fill-color: #010a06;
+    }
+  }
+  .hvr-btn:hover {
+      opacity:0.5;
+  }
+  .border-2 {
+      border: 2px solid;
+  }
