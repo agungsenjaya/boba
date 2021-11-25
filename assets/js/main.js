@@ -7,3 +7,18 @@ $.ajax({
         console.log(response);
     }
 });
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
+      },
+  });
+
+  AOS.init();
+
+//   ANIMATION
+tsParticles.load("tsparticles", { preset: "links" });

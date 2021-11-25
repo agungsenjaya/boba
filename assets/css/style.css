@@ -10,6 +10,16 @@ body {
 .nav-top > li {
     margin-left: 2em;
 }
+.nav-foot {
+    font-family: 'Nova Square', sans-serif !important;
+    font-size: 15px;
+}
+.nav-foot > li {
+    margin-right: 1em;
+}
+.nav-foot > li > a {
+    color: #fff;
+}
 .title-1 {
     font-family: 'Nova Square', sans-serif;
 }
@@ -34,6 +44,9 @@ body {
     transform: translateY(-50%) rotate(-90deg);
     right: 0;
     z-index: 100;
+}
+.bg-boba-2 {
+    background: #003ca9;
 }
 .bg-boba {
     background: #004bd3;
@@ -74,3 +87,48 @@ body {
   .border-2 {
       border: 2px solid;
   }
+  .to-center {
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      position: absolute;
+  }
+  .to-bottom {
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: auto;
+      position: absolute;
+  }
+  .bg-grad-news {
+      background-image: linear-gradient(180deg,#010a063b 5%,#010a06);
+  }
+  .list-road {
+      padding-left: 0 !important;
+      line-height: 2;
+  }
+  .list-road > li {
+      background-color: transparent;
+  }
+  .btn-grad-1 {
+      background-image: linear-gradient(to right, #004bd3 0%, #ffb100  51%, #004bd3  100%)
+    }
+  .btn-grad-1 {
+     margin: 10px;
+     text-align: center;
+     transition: 0.5s !important;
+     background-size: 200% auto;
+     color: #fff !important;            
+     box-shadow: 0 0 10px #004bd3;
+   }
+  
+   .btn-grad-1:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+   .bg-grad-cs {
+       background-image: linear-gradient(254deg,#001438 5%,#004bd3);
+   }

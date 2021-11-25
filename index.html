@@ -14,12 +14,19 @@
         <link rel="stylesheet" href="assets/css/app.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.css" integrity="sha512-UeEUffyTLOC2PrE2r82gwdSH2j7T/rsrfR/+px3YGJbib2RfLGOCYX4gSiMZhYxGOyw5gf3SqTzuaTlxs6E4Ug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="py-2 bg-boba">
+        <div class="opacity-50" style="position:absolute;z-index:-1">
+          <div id="tsparticles"></div>
+        </div>
+
+        <div class="py-2 bg-boba-2">
           <div class="container">
             <p class="m-0 text-center">
               Attention - We’are still under development website
@@ -58,7 +65,7 @@
                   <div>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="btn btn-boba">Join Community</a>
+                        <a class="btn btn-grad-1">Join Community</a>
                       </li>
                     </ul>
                   </div>
@@ -70,36 +77,36 @@
         <section class="space-xl">
           <div class="container">
             <div class="row">
-              <div class="col-md-7 align-self-center">
-                <h1 class="display-5 fw-bold"><span class="text-out">Invest in yourself</span> <br> with bobaraca</h1>
+              <div class="col-md-7 align-self-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                <h1 class="display-5 fw-bold text-capitalize"><span class="text-out">Invest in yourself</span> <br> with Bobaraca</h1>
                 <p>Bobaraca is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</p>
-                <a href="javascript:void(0)" class="btn btn-boba me-3">Get Bobaraca</a>
+                <a href="javascript:void(0)" class="btn btn-grad-1 me-3">Get Bobaraca</a>
                 <a href="javascript:void(0)" class="btn btn-outline-boba"><span class="me-1 ion-ios-plus-empty"></span>Whitepaper</a>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-5" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
                 <img src="https://dummyimage.com/600x500" alt="" width="100%">
               </div>
             </div>
-            <!-- <div class="nav-socials"><a href="#">Facebook</a><a href="#">Twitter</a><a href="#">Instagram</a><a href="#">Telegram</a></div> -->
+            <!-- <div class="nav-socials"><a href="#" class="me-3">Facebook</a><a href="#" class="me-3">Twitter</a><a href="#" class="me-3">Instagram</a><a href="#" class="me-3">Telegram</a></div> -->
           </div>
         </section>
         <section class="space-m">
           <div class="container">
 
             <div class="card-deck">
-              <div class="card border-boba bg-transparent">
+              <div class="card border-boba bg-transparent" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
                 <div class="card-body">
                   <p class="opacity-50 title-1">Holders</p>
                   <h2 class="text-boba fw-bold">210</h2>
                 </div>
               </div>
-              <div class="card border-boba bg-transparent">
+              <div class="card border-boba bg-transparent" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="500">
                 <div class="card-body">
                   <p class="opacity-50 title-1">Volume 24H</p>
                   <h2 class="text-boba fw-bold">210</h2>
                 </div>
               </div>
-              <div class="card border-boba bg-transparent">
+              <div class="card border-boba bg-transparent" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500">
                 <div class="card-body">
                   <p class="opacity-50 title-1">Circulating Supply</p>
                   <h2 class="text-boba fw-bold">210</h2>
@@ -113,46 +120,191 @@
         <section class="space-m">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 align-self-center">
+              <div class="col-md-6 align-self-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                 <h1 class="display-5 fw-bold"><span class="text-out">What is</span><br> <span class="text-boba">Bobaraca?</span></h1>
                 <p>Bobaraca is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</p>
                 <a href="javascript:void(0)" class="btn text-white border-0 border-bottom border-boba hvr-btn me-3">Buy Check<span class="ion-ios-arrow-thin-right ms-2"></span></a>
                 <a href="javascript:void(0)" class="btn text-white border-0 border-bottom border-boba hvr-btn">Sell Check<span class="ion-ios-arrow-thin-right ms-2"></span></a>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <img src="https://dummyimage.com/600x500" alt="" width="100%">
               </div>
             </div>
           </div>
         </section>
+        <section class="space-m">
+          <div class="container">
+            <h1 class="text-center display-5 fw-bold mb-4" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500"><span class="text-out">Roadmaps</span></h1>
+
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+              <div class="card-deck">
+              <div class="card bg-transparent border-boba" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
+              <div class="card-body">
+              <div>
+              <div class="badge btn-grad-1 title-1 mb-3">Roadmaps</div>
+              <h4 class="card-title title-1 text-white my-2">Phase 1</h4>
+              </div>
+              <div class="card-text">
+              <ul class="list-group list-group-flush list-road">
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-check text-boba me-2"></i><p></p>
+              <div class="media-body">
+                                              Launch Social Media Sites (Twitter, Telegram, and More!)</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-check text-boba me-2"></i><p></p>
+              <div class="media-body">
+                                              Launch Website</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+              <i class="bi bi-check text-boba me-2"></i><p></p>
+              <div class="media-body">
+                                              FairLaunch</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">
+                                              1.000 Member Telegram</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">
+                                              $100.000 Market Caps</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">
+                                              MARKETING PLAN</div>
+              </div>
+              </li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              <div class="card bg-transparent border-boba" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
+              <div class="card-body">
+              <div>
+              <div class="badge btn-grad-1 title-1 mb-3">Roadmaps</div>
+              <h4 class="card-title title-1 text-white my-2">Phase 2</h4>
+              </div>
+              <div class="card-text">
+              <ul class="list-group list-group-flush list-road">
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">5.000 Member Telegram</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">$500.000 Market Caps</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">BIG MARKETING PROMOTION</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">$1.000.000 Market Caps</div>
+              </div>
+              </li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              <div class="card bg-transparent border-boba" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+              <div class="card-body">
+              <div>
+              <div class="badge btn-grad-1 title-1 mb-3">Roadmaps</div>
+              <h4 class="card-title title-1 text-white my-2">Phase 3</h4>
+              </div>
+              <div class="card-text">
+              <ul class="list-group list-group-flush list-road">
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">Listing CG</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x opacity-50 me-2"></i><p></p>
+              <div class="media-body">Listing CMC</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x me-2 opacity-50"></i><p></p>
+              <div class="media-body">Audit Certik</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x me-2 opacity-50"></i><p></p>
+              <div class="media-body">Launch Apps</div>
+              </div>
+              </li>
+              <li class="list-group-item">
+              <div class="media text-white">
+                                            <i class="bi bi-x me-2 opacity-50"></i><p></p>
+              <div class="media-body">Listing CEX</div>
+              </div>
+              </li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+          </div>
+        </section>
         
         <section class="space-m">
           <div class="container">
-            <h1 class="text-center display-5 fw-bold mb-4"><span class="text-out">Tokenomics</span></h1>
+            <h1 class="text-center display-5 fw-bold mb-4" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500"><span class="text-out">Tokenomics</span></h1>
 
             <div class="card-deck text-center">
-              <div class="card bg-transparent">
+              <div class="card bg-transparent" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
                 <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-boba title-1">2% Burn</h5>
                   <p class="card-text">Two percent of every sell transaction is burned forever. This creates an aggressively deflationary system.</p>
                 </div>
               </div>
-              <div class="card bg-transparent">
+              <div class="card bg-transparent" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
                 <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-boba title-1">2% Redistribution</h5>
                   <p class="card-text">Two percent of every sell transaction is burned forever. This creates an aggressively deflationary system.</p>
                 </div>
               </div>
-              <div class="card bg-transparent">
+              <div class="card bg-transparent" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                 <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-boba title-1">2% Liquidity</h5>
                   <p class="card-text">Two percent of every sell transaction is burned forever. This creates an aggressively deflationary system.</p>
                 </div>
               </div>
-              <div class="card bg-transparent">
+              <div class="card bg-transparent" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200">
                 <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-boba title-1">2% Marketing</h5>
@@ -166,7 +318,7 @@
         <section class="space-xl">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
                 <div class="card bg-transparent border-boba border-2">
                   <div class="p-4">
                     <div class="text-end">
@@ -185,7 +337,7 @@
                             <h4 class="fw-bold title-2">1.0</h4>
                         </td>
                         <td class="text-end border-0">
-                          <div class="btn text-white pe-0">ETH<i class="ms-2 ion-ios-arrow-down"></i></div>
+                          <div class="btn text-white pe-0">BNB<i class="ms-2 ion-ios-arrow-down"></i></div>
                         </td>
                       </tr>
                         <tr>
@@ -196,7 +348,7 @@
                             <h4 class="fw-bold title-2">0.0</h4>
                         </td>
                         <td class="text-end border-0">
-                          <div class="btn text-white pe-0">BOBARACA<i class="ms-2 ion-ios-arrow-down"></i></div>
+                          <div class="btn text-white pe-0">Bobaraca<i class="ms-2 ion-ios-arrow-down"></i></div>
                         </td>
                       </tr>
                     </tbody>
@@ -208,20 +360,148 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
               <div class="p-4">
                 <h1 class="display-5 fw-bold mb-4"><span class="text-out">Decentralized Exchange</span><span class="text-boba">Bobaraca Swap</span></h1>
                 <p>Check is allowed to exchange for other tokens (ETC, BNB, USDT) on PancakeSwap.</p>
-                <a href="javascript:void(0)" class="btn btn-boba">View On Pancakeswap</a>
+                <a href="javascript:void(0)" class="btn btn-grad-1">View On Pancakeswap</a>
               </div>
               </div>
             </div>
           </div>
         </section>
+        <section class="space-m">
+          <div class="">
+            <h1 class="text-center display-5 fw-bold mb-4"><span class="text-out">Check News</span></h1>
+
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="position-relative">
+                    <div class="to-center bg-grad-news"></div>
+                    <img src="https://dummyimage.com/600x700" alt="" width="100%" class="">
+                    <div class="to-bottom p-4">
+                      <h3 class="fw-bold">Incredible Token <br> With Bobaraca</h3>
+                      <a href="javascript:void(0)" class="title-1">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="position-relative">
+                    <div class="to-center bg-grad-news"></div>
+                    <img src="https://dummyimage.com/600x700" alt="" width="100%" class="">
+                    <div class="to-bottom p-4">
+                      <h3 class="fw-bold">Incredible Token <br> With Bobaraca</h3>
+                      <a href="javascript:void(0)" class="title-1">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="position-relative">
+                    <div class="to-center bg-grad-news"></div>
+                    <img src="https://dummyimage.com/600x700" alt="" width="100%" class="">
+                    <div class="to-bottom p-4">
+                      <h3 class="fw-bold">Incredible Token <br> With Bobaraca</h3>
+                      <a href="javascript:void(0)" class="title-1">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="position-relative">
+                    <div class="to-center bg-grad-news"></div>
+                    <img src="https://dummyimage.com/600x700" alt="" width="100%" class="">
+                    <div class="to-bottom p-4">
+                      <h3 class="fw-bold">Incredible Token <br> With Bobaraca</h3>
+                      <a href="javascript:void(0)" class="title-1">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+
+              <div class="text-center mt-3">
+                <a href="javascript:void(0)" class="btn btn-prev btn-boba m-1"> <i class="ion-ios-arrow-left h4"></i> </a>
+                <a href="javascript:void(0)" class="btn btn-next btn-boba m-1"> <i class="ion-ios-arrow-right h4"></i> </a>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+        <section class="space-xl bg-grad-cs">
+          <div class="container">
+            <h3 class="fw-bold mb-5 text-center" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">Our Partners</h3>
+            <div class="row">
+              <div class="col-md-3 mb-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
+                <img src="https://dummyimage.com/600x300" alt="" width="100%" class="">
+              </div>
+              <div class="col-md-3 mb-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
+                <img src="https://dummyimage.com/600x300" alt="" width="100%" class="">
+              </div>
+              <div class="col-md-3 mb-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                <img src="https://dummyimage.com/600x300" alt="" width="100%" class="">
+              </div>
+              <div class="col-md-3 mb-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200">
+                <img src="https://dummyimage.com/600x300" alt="" width="100%" class="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="space-m">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <p class="title-1 opacity-50">About Us</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quia suscipit voluptatibus mollitia dignissimos esse. Dignissimos, esse quaerat iusto consequatur ullam ducimus iste veniam, dicta natus, sit doloremque aliquid ab.</p>
+              </div>
+              <div class="offset-md-5 col-md-3">
+                <p class="title-1 opacity-50">Subscribe Us</p>
+                <div class="input-group">
+                  <input type="text" class="form-control bg-boba-2 border-0" placeholder="Enter your email" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  <button class="btn btn-boba" type="button" id="button-addon1">Send</button>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <div>
+                <ul class="nav nav-foot">
+                  <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#"><img src="assets/img/logo.png" alt="" width="80"></a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#">Roadmaps</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#">Tokenomics</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                    <a class="nav-link" href="#">Faq</a>
+                  </li>
+                </ul>
+          </div>
+          <div class="title-1 align-self-center opacity-50">
+            <!-- <img src="assets/img/logo.png" alt="" width="80" class="d-inline-block align-text-middle">  -->
+            &copy; Copyright all reserved 2021 Bobaraca Token
+          </div>
+          </div>
+
+
+          </div>
+        </footer>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js" integrity="sha512-v+pIzqEVf0+O50Ls9scw6DDZT5On6G5wnXLLMSjYlfJJrNe+ZCWK849PBUYQDagZKc2125WKYJY3XugLNwwPfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@1.22.4/tsparticles.preset.links.bundle.min.js"></script>
         <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
         <script src="assets/js/main.js"></script>
     </body>
