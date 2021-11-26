@@ -1,0 +1,14 @@
+@media (max-width: 575.98px) { ... }
+@media (max-width: 767.98px) { ... }
+@media (max-width: 991.98px) {
+    .nav-top > li {
+        line-height: 2;
+        border-bottom: 1px solid #fff;
+        margin-left: 0;
+    }
+    .nav-top > li:last-child {
+        border-bottom: none;
+    }
+}
+@media (max-width: 1199.98px) { ... }
+@media (max-width: 1399.98px) { ... }

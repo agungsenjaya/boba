@@ -1,20 +1,52 @@
-$.ajax({
-    type: "GET",
-    url: "https://api.dex.guru/v1/tokens/0xafe3321309a994831884fc1725f4c3236ac79f76-bsc",
-    data: "data",
-    dataType: "JSON",
-    success: function (response) {
-        console.log(response);
+function ouTer(e)
+{
+  var es = '#' + e;
+  $('html, body').animate({
+    scrollTop: $(es).offset().top - $("header").outerHeight() + "px"
+  }, 1);
+}
+
+// LOADING
+(function () {
+    window.onload = function () {
+      var preloader = document.querySelector('.page-loading');
+      preloader.classList.remove('active');
+      setTimeout(function () {
+        preloader.remove();
+      }, 2000);
+    };
+  })();
+
+  // HEADER
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+     //>=, not <=
+    if (scroll >= 100) {
+        $("header").addClass("bg-dark-2");
+      }else{
+      $("header").removeClass("bg-dark-2");
     }
-});
+}); //missin
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
     loop: true,
     navigation: {
         nextEl: ".btn-next",
         prevEl: ".btn-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
       },
   });
 
