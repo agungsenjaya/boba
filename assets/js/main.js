@@ -22,9 +22,9 @@ function ouTer(e)
     var scroll = $(window).scrollTop();
      //>=, not <=
     if (scroll >= 100) {
-        $("header").addClass("bg-dark-2");
+        $("header").addClass("shadow-sm");
       }else{
-      $("header").removeClass("bg-dark-2");
+      $("header").removeClass("shadow-sm");
     }
 }); //missin
 
@@ -53,4 +53,4 @@ var swiper = new Swiper(".mySwiper", {
   AOS.init();
 
 //   ANIMATION
-tsParticles.load("tsparticles", { preset: "links" });
+// tsParticles.load("tsparticles", { preset: "links" });
