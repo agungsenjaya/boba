@@ -12,10 +12,10 @@ body {
     margin-left: 1.2em;
 }
 .nav-top > li  > a{
-    /* color: #00B2B2 !important; */
+    color: #00B2B2 !important;
 }
 .nav-foot {
-    font-family: 'Kanit', sans-serif !important;
+    /* font-family: 'Kanit', sans-serif !important; */
     font-size: 15px;
 }
 .nav-foot > li {
@@ -51,6 +51,9 @@ body {
 }
 .bg-boba-2 {
     background: #007676;
+}
+.text-warn {
+    color: #EFC928;
 }
 .bg-warn {
     background: #EFC928;
@@ -125,7 +128,16 @@ body {
   }
   .list-road > li {
     padding-left: 0 !important;
-      background-color: transparent;
+    background-color: transparent;
+  }
+  .list-road-2 {
+    padding-left: 0 !important;
+    line-height: 2;
+}
+  .list-road-2 > li {
+    padding-left: 0 !important;
+    background-color: transparent;
+    color: #fff;
   }
   .btn-grad-1 {
       background-image: linear-gradient(to right, #00B2B2 0%, #ffb100  51%, #00B2B2  100%)
@@ -254,4 +266,15 @@ body {
   }
   .grad-home-2 {
     background-image: linear-gradient(0deg,#efc92826 5%,#efc92800);
+  }
+  .anim-1 {
+    animation: 2s ease-in-out 1s infinite normal none running anim-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: anim-1;
   }
