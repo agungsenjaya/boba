@@ -1,8 +1,9 @@
 function ouTer(e)
 {
-  var es = '#' + e;
+  $('#navbarSupportedContent').collapse('hide');
+  var es = e;
   $('html, body').animate({
-    scrollTop: $(es).offset().top - $("header").outerHeight() + "px"
+    scrollTop: $(es).offset().top - $(".navbar").outerHeight() + "px"
   }, 1);
 }
 

@@ -279,3 +279,6 @@ body {
     animation-play-state: running;
     animation-name: anim-1;
   }
+  .hvr-point {
+    cursor: pointer;
+  }
